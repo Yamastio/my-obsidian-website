@@ -1,15 +1,14 @@
 ---
-title:
-id: 251114-xxxx-x1
-tags:
-  - learning
-  - ceh_v12
-  - cybersecurity
+title: Ethical Hacking Concpets
+id: 251114-1548-x1
 date: 2025-11-14
 description: Ringkasan konsep dasar Ethical Hacking secara mendalam.
 draft: false
 comments: true
 ---
+
+Tags: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
+
 ## Apa itu Ethical Hacking?
 
 - Terlibat dalam penggunaan alat, trik, dan teknik hacking untuk mengidentifikasi kelemahan dan memastikan keamanan sistem
@@ -103,4 +102,3 @@ comments: true
 2. Kerja dengan etika yang kuat, baik dalam problem solving dan komunikasi
 3. Berkomitmen dengan kebijakan kemananan organisasi
 4. Memiliki kesadaran standar lokal dan hukum
-
