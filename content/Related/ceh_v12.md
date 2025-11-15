@@ -3,6 +3,7 @@ id: ceh_v12
 aliases: []
 tags:
   - tag-index
+  - ceh_v12
 ---
 
 Related: [[index|Home]]

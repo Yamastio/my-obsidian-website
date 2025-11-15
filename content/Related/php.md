@@ -3,6 +3,7 @@ id: php
 aliases: []
 tags:
   - tag-index
+  - php
 comments: true
 draft: false
 title: php

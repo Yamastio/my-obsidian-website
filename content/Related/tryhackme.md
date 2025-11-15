@@ -3,6 +3,7 @@ id: tryhackme
 aliases: []
 tags:
   - tag-index
+  - tryhackme
 ---
 
 Related: [[index|Home]]

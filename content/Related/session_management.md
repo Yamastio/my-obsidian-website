@@ -1,13 +1,12 @@
 ---
-id: web3
+id: session_management
 aliases: []
 tags:
   - tag-index
-  - web3
+  - session_management
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
+## Daftar isi
 
-1. [[blockchain]]

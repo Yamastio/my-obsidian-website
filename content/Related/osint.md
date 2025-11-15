@@ -1,13 +1,13 @@
 ---
-id: web3
+id: osint
 aliases: []
 tags:
   - tag-index
-  - web3
+  - osint
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
+## Daftar isi
 
-1. [[blockchain]]
+1. [[Censys]]

@@ -1,13 +1,11 @@
 ---
-id: web3
+id: python
 aliases: []
 tags:
   - tag-index
-  - web3
+  - python
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

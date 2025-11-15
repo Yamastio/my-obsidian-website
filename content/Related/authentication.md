@@ -1,13 +1,12 @@
 ---
-id: web3
+id: authentication
 aliases: []
 tags:
   - tag-index
-  - web3
+  - authentication
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
+## Daftar isi
 
-1. [[blockchain]]

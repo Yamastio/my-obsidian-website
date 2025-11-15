@@ -1,13 +1,11 @@
 ---
-id: web3
+id: frontend
 aliases: []
 tags:
   - tag-index
-  - web3
+  - frontend
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

@@ -1,13 +1,11 @@
 ---
-id: web3
+id: algorithms
 aliases: []
 tags:
   - tag-index
-  - web3
+  - algorithms
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

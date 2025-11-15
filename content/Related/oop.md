@@ -3,6 +3,7 @@ id: oop
 aliases: []
 tags:
   - tag-index
+  - oop
 ---
 
 Related: [[index|Home]]

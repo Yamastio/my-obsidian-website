@@ -1,13 +1,11 @@
 ---
-id: web3
+id: webdev
 aliases: []
 tags:
   - tag-index
-  - web3
+  - webdev
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

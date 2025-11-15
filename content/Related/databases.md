@@ -1,9 +1,9 @@
 ---
-id: mysql
+id: databases
 aliases: []
 tags:
   - tag-index
-  - mysql
+  - databases
 ---
 
 Related: [[index|Home]]

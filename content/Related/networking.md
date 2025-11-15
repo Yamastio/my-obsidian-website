@@ -1,13 +1,13 @@
 ---
-id: web3
+id: networking
 aliases: []
 tags:
   - tag-index
-  - web3
+  - networking
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
+## Daftar isi
 
-1. [[blockchain]]
+1. [[DIG]]

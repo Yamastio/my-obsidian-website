@@ -1,13 +1,11 @@
 ---
-id: web3
+id: filosofi
 aliases: []
 tags:
   - tag-index
-  - web3
+  - filosofi
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

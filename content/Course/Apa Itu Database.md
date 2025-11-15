@@ -3,70 +3,62 @@ id: Apa Itu Database
 aliases: []
 tags:
   - mysql
+  - databases
+  - sql
 comments: true
 draft: false
 ---
+---
+Related: [[index|Home]], [[mysql]], [[databases]], [[sql]]
 
-Related: [[index|Home]], [[mysql]]
+---
+## Cue
 
-## Apa itu Database
-
-Database adalah sekumpulan data yang disimpan dan dikelola secara elektronik dalam sebuah sistem komputer. Tujuan utama database adalah menyediakan cara yang terstruktur, efisien, dan konsisten untuk menyimpan, mengakses, dan mengelola informasi.
-
-Istilah DMS (Data Management System) sering digunakan secara umum untuk menggambarkan sistem pengelolaan data. Namun, dalam konteks teknis, istilah yang lebih tepat adalah DBMS (Database Management System). DBMS adalah perangkat lunak yang digunakan untuk membuat, mengelola, dan menjalankan operasi pada database.
+* Apa itu database?
+* Mengapa kita membutuhkan database?
+* Apa struktur dasar dalam database?
+* Apa itu SQL?
+* Apa peran DBMS?
+* Bagaimana hubungan antara database, SQL, dan DBMS?
 
 ---
 
-## Komponen Utama Database
+## Notes
 
-### Tabel
+### Inti Konsep Database
 
-Struktur utama yang digunakan untuk menyimpan data. Masing-masing tabel merepresentasikan suatu entitas.
-Contoh: Customer, Manufacture, Product, Order, Order_items.
+* Database adalah tempat menyimpan data secara rapi dan terorganisir di komputer.
+* DBMS digunakan untuk mengelola penyimpanan, pengambilan, dan perubahan data.
 
-### Kolom / Field
+### Pentingnya Database
 
-Atribut atau properti dari data yang disimpan pada tabel. Setiap kolom memiliki nama dan tipe data.
+* Mencegah data tercecer atau tidak terstruktur.
+* Data menjadi lebih mudah dicari, diubah, dan dikelola.
+* Mengurangi konflik dan menjaga konsistensi data.
+* Menyediakan sistem penyimpanan yang aman dan terurut.
 
-### Baris / Record
+### Struktur Dasar Database
 
-Satu unit data dalam sebuah tabel yang merepresentasikan satu entitas lengkap.
+* **Tabel** = rak yang berisi jenis data tertentu.
+* **Record / baris** = item atau entitas data (seperti buku).
+* **Kolom** = atribut dalam record (contoh: nama, harga, tanggal).
+* **Tipe data** = aturan jenis nilai (angka, teks, tanggal, boolean).
 
-### Tipe Data
+### SQL (Structured Query Language)
 
-Menentukan jenis data yang dapat disimpan pada sebuah kolom.
-Contoh:
+* Bahasa standar untuk berinteraksi dengan database.
+* Digunakan untuk menambah, mengambil, mengubah, dan menghapus data.
+* Dipakai di berbagai DBMS: MySQL, PostgreSQL, SQLite, dan lainnya.
 
-- varchar atau char untuk teks
-- integer untuk angka
-- date untuk tanggal
+### DBMS (Database Management System)
 
-### Query
-
-Instruksi atau perintah yang digunakan untuk berinteraksi dengan database. Query digunakan untuk menambah, mengubah, menghapus, dan mengambil data.
-
----
-
-## Analogi Sederhana
-
-Database dapat dianalogikan sebagai sebuah rak buku besar.
-
-- Setiap rak adalah tabel.
-- Setiap buku adalah record.
-- Informasi di dalam buku adalah data pada kolom.
-- Aturan seperti kategori atau label adalah tipe data.
+* Program yang mengelola database.
+* Menjamin data konsisten, aman, dan tidak terjadi konflik walaupun diakses banyak pengguna.
+* Contoh DBMS: MySQL, MariaDB, PostgreSQL.
 
 ---
 
-## SQL (Structured Query Language)
+## Summary
 
-SQL adalah bahasa standar untuk mengelola dan berinteraksi dengan database relasional. SQL memungkinkan pengguna untuk:
+Database adalah sistem penyimpanan data yang terstruktur, sementara DBMS mengelola proses penyimpanan dan pengaksesannya. SQL berfungsi sebagai bahasa untuk memberi instruksi pada database, seperti menambah atau mengambil data. Dengan struktur seperti tabel, baris, dan kolom, database membantu menjaga data tetap teratur, mudah dicari, serta konsisten.
 
-- Menyisipkan data
-- Mengambil data
-- Memperbarui data
-- Menghapus data
-- Membuat tabel dan struktur database
-- Mengatur hak akses
-
-SQL digunakan oleh berbagai DBMS seperti MySQL, PostgreSQL, MariaDB, SQLite, dan lainnya.

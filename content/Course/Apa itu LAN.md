@@ -9,41 +9,52 @@ description: Ringkasan konsep dasar mengenai LAN.
 draft: false
 title: Apa itu LAN
 ---
-
+---
 Related: [[index|Home]], [[tryhackme]], [[cybersecurity]]
 
-## **Apa itu LAN?**
+---
 
-**LAN** (Local Area Network) adalah jenis jaringan komputer yang menghubungkan perangkat-perangkat seperti komputer, printer, atau perangkat lainnya dalam area terbatas seperti rumah, kantor, atau gedung. Jaringan LAN biasanya digunakan untuk berbagi sumber daya, seperti file, printer, dan koneksi internet di antara perangkat-perangkat yang ada dalam jaringan tersebut.
+## Cue
 
-## Ciri-ciri LAN:
+* Apa itu LAN
+* Inti konsep LAN
+* Peralatan LAN
+* Tipe-tipe LAN
+* Inti sederhana LAN
 
-1. **Area Terbatas**: LAN hanya mencakup area yang relatif kecil, seperti satu gedung, satu lantai, atau bahkan satu rumah.
-2. **Kecepatan Tinggi**: LAN menawarkan kecepatan transfer data yang relatif tinggi, biasanya antara 100 Mbps hingga beberapa Gbps, tergantung pada jenis jaringan dan perangkat yang digunakan.
-3. **Koneksi Kabel atau Nirkabel**: LAN bisa menggunakan kabel (seperti **Ethernet**) atau koneksi nirkabel (seperti **Wi-Fi**) untuk menghubungkan perangkat.
-4. **Kontrol dan Pengelolaan Lokal**: Pengelolaan dan pengaturan jaringan LAN biasanya dilakukan oleh administrator jaringan lokal yang mengatur perangkat, keamanan, dan koneksi jaringan.
+---
 
-## Komponen utama dalam LAN:
+## Notes
 
-1. **Router**: Menghubungkan LAN ke jaringan lainnya, seperti Internet. Router juga mengatur pengiriman data antara perangkat dalam LAN.
-2. **Switch**: Menghubungkan perangkat-perangkat dalam jaringan LAN dan mengarahkan lalu lintas data di dalam jaringan tersebut.
-3. **Access Point (AP)**: Untuk LAN nirkabel, access point menyediakan koneksi Wi-Fi bagi perangkat yang mendukung Wi-Fi seperti laptop atau ponsel.
-4. **Perangkat Komunikasi**: Semua perangkat yang terhubung ke LAN, seperti komputer, printer, dan perangkat jaringan lainnya.
+### Apa itu LAN
 
-## Jenis LAN:
+* LAN adalah lingkungan kecil tempat perangkat seperti laptop, printer, dan HP bisa saling terhubung dan bertukar data tanpa perlu kabel USB.
+* Biasanya berada dalam area terbatas seperti rumah, kantor, atau satu lantai.
 
-- **Wired LAN**: Menggunakan kabel jaringan (biasanya Ethernet) untuk menghubungkan perangkat. Memiliki koneksi yang stabil dan cepat.
-- **Wireless LAN (WLAN)**: Menggunakan teknologi nirkabel, seperti Wi-Fi, untuk menghubungkan perangkat tanpa kabel fisik.
+### Inti konsep LAN
 
-## Keuntungan LAN:
+* **LAN** = jaringan kecil di area kecil.
+* **Tujuan utama**: berbagi file, printer, dan koneksi internet dengan mudah.
+* Kecepatannya tinggi karena jarak antar perangkat pendek dan memakai kabel/Wi-Fi lokal.
 
-1. **Berbagi Sumber Daya**: Memungkinkan berbagi perangkat keras seperti printer dan file antar perangkat yang terhubung.
-2. **Biaya Lebih Rendah**: Karena hanya mencakup area kecil, biaya pemasangan dan pemeliharaan jaringan LAN relatif lebih murah dibandingkan jaringan yang lebih besar.
-3. **Kecepatan Tinggi**: LAN menawarkan transfer data dengan kecepatan tinggi, ideal untuk pekerjaan yang memerlukan akses cepat ke data.
+### Peralatan LAN
 
-## Contoh Penggunaan LAN:
+* **Router**: gerbang keluar masuk dari/ke internet.
+* **Switch**: menghubungkan perangkat di dalam jaringan.
+* **Access Point**: menyediakan Wi-Fi.
+* **Perangkat pengguna**: laptop, printer, HP, dan lainnya.
 
-- Di kantor: Semua komputer di kantor terhubung untuk berbagi file, perangkat printer, dan akses internet.
-- Di rumah: Semua perangkat seperti komputer, ponsel, dan televisi pintar terhubung melalui Wi-Fi untuk berbagi koneksi internet dan file.
+### Tipe-tipe LAN
 
-Dengan LAN, perangkat dalam area terbatas bisa berkomunikasi dengan mudah dan berbagi berbagai sumber daya secara efisien.
+* **Wired LAN**: menggunakan kabel, stabil, dan cepat.
+* **Wireless LAN**: menggunakan Wi-Fi, fleksibel.
+
+### Inti sederhana LAN
+
+* LAN adalah komunitas kecil untuk perangkat agar bisa berkomunikasi dan berbagi sumber daya dalam area terbatas.
+
+---
+
+## Summary
+
+LAN adalah jaringan kecil dalam area terbatas yang memungkinkan perangkat saling terhubung, berkomunikasi, dan berbagi sumber daya dengan cepat. LAN menggunakan perangkat seperti router, switch, dan access point, dan dapat berbentuk wired maupun wireless. Tujuan utamanya adalah mempermudah pertukaran data dan akses bersama dalam lingkungan lokal.

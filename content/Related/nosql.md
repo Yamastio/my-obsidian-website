@@ -1,13 +1,11 @@
 ---
-id: web3
+id: nosql
 aliases: []
 tags:
   - tag-index
-  - web3
+  - nosql
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

@@ -1,13 +1,10 @@
 ---
-id: web3
+id: cheat_sheet
 aliases: []
 tags:
   - tag-index
-  - web3
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

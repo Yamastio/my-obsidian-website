@@ -1,13 +1,13 @@
 ---
-id: web3
+id: web_security
 aliases: []
 tags:
   - tag-index
-  - web3
+  - web_security
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
+## Daftar isi
 
-1. [[blockchain]]
+1. [[Burpsuite]]

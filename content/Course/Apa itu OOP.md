@@ -9,99 +9,64 @@ description: Ringkasan konsep dasar mengenai LAN.
 draft: false
 title: Apa itu OOP
 ---
-
+---
 Related: [[index|Home]], [[php]], [[oop]]
 
-## Apa itu OOP?
+---
+## Cue
 
-**Object Oriented Programming (OOP)** adalah paradigma pemrograman yang berfokus pada penggunaan objek, yaitu struktur data yang menggabungkan **data** (properties/attributes) dan **fungsi** (methods) ke dalam satu kesatuan.
-
-## Ciri-ciri OOP
-
-- Data dan fungsinya diikat menjadi satu entitas, disebut **objek**.
-- Menyediakan konsep seperti **inheritance**, **encapsulation**, **polymorphism**, dan **abstraction**.
-- Membuat kode lebih modular dan mudah untuk dikelola.
+* Apa itu OOP
+* Kenapa memakai OOP
+* Konsep inti OOP
+* Fitur OOP di PHP
+* Inti sederhana OOP
 
 ---
 
-## Kapan Butuh OOP?
+## Notes
 
-1. **Development aplikasi kompleks**
-   - Misalnya: aplikasi enterprise, sistem berbasis web, aplikasi desktop yang besar.
-2. **Aplikasi yang membutuhkan database**
-   - Misalnya: e-commerce, manajemen data, atau aplikasi berbasis CRUD.
-3. **Kolaborasi tim**
-   - OOP membantu membagi tanggung jawab antar tim melalui modularisasi kode.
-4. **Proyek skala besar dan jangka panjang**
-   - Membutuhkan pemeliharaan dan pengembangan yang berkelanjutan.
+### Apa itu OOP
 
-> **Catatan:**
+* OOP adalah cara menulis program dengan membuat objek.
+* Objek = gabungan data (properties) dan aksi (methods).
+* Contoh:
 
-- OOP tidak cocok untuk proyek sederhana karena dapat menambah kompleksitas yang tidak perlu.
+  * Siswa: nama, kelas → properties.
+  * Siswa: belajar(), ujian() → methods.
+* Objek diperlakukan seperti “benda” dalam dunia kecil program.
 
----
+### Kenapa memakai OOP
 
-## Konsep Dasar dalam OOP
+* Berguna saat program besar dan kompleks.
+* Memecah program menjadi bagian kecil berupa objek.
+* Mengurangi kekacauan ketika fitur banyak.
+* Memudahkan kolaborasi tim dan perawatan kode.
+* Mendukung reuse code.
+* Membuat struktur seperti “kota kecil” berisi objek yang bekerja sama.
 
-### Object
+### Konsep inti OOP
 
-- **Definisi**: Entitas yang mewakili dunia nyata dalam kode, berisi **properties** dan **methods**.
-- Contoh:
-  - Objek **Siswa** memiliki property `nama` dan `kelas`, serta method `belajar()`.
-  - Objek **Shopping Cart** memiliki property `items` dan method `add_to_cart()`.
+* Object: benda dalam program yang punya properties dan methods.
+* Properties: data milik objek (nama, kelas, tinggi, lebar).
+* Methods: aksi yang dilakukan objek (belajar(), add_to_cart()).
 
----
+### Fitur OOP di PHP
 
-### Properties
+* class: blueprint untuk membuat objek.
+* object: hasil dari class.
+* constructor: inisialisasi objek.
+* encapsulation: membatasi akses data.
+* inheritance: class anak mewarisi sifat class parent.
+* polymorphism: method sama dengan perilaku berbeda.
+* abstract & interface: cetak biru dasar untuk class lain.
 
-- Data atau atribut yang dimiliki oleh sebuah objek.
-- Contoh:
-  - **Meja** memiliki:
-    - `tinggi = 1 meter`
-    - `lebar = 2 meter`
-  - **Siswa** memiliki:
-    - `nama = "Ali"`
-    - `kelas = "XII"`
+### Inti paling sederhana
 
-### Methods
-
-- Fungsi yang dapat dilakukan oleh sebuah objek, sering kali melibatkan properties objek tersebut.
-- Contoh:
-  - **Shopping Cart** memiliki method:
-    - `add_to_cart(item)`
-    - `calculate_total()`
-  - **Siswa** memiliki method:
-    - `belajar(materi)`
-    - `ujian(nilai)`
+* OOP membuat program seperti dunia nyata: benda dengan data dan aksi.
+* Membuat kode rapi, mudah diatur, dan dapat dipakai ulang.
 
 ---
 
-## Manfaat OOP
+## Summary
 
-1. **Kode terstruktur**
-   - Membagi kode ke dalam objek-objek yang jelas, mempermudah pengelolaan dan pemahaman.
-
-2. **Visualisasi kode yang rapi**
-   - Logika aplikasi lebih mudah diorganisir dengan relasi antar objek.
-
-3. **Simplicity**
-   - Membuat kode lebih sederhana melalui abstraksi.
-
-4. **Reusability (Kode Modular dan Reusable)**
-   - Fungsi atau class yang telah dibuat dapat digunakan kembali di proyek lain.
-
-5. **Easier Maintenance**
-   - Memudahkan pemeliharaan karena fokus hanya pada objek tertentu ketika ada bug atau fitur baru.
-
----
-
-## Fitur OOP dalam PHP
-
-- **Sejak PHP 5.0**, PHP mendukung fitur OOP seperti:
-  - **Class**: Template untuk membuat objek.
-  - **Object**: Instansiasi dari sebuah class.
-  - **Constructor**: Method khusus untuk inisialisasi properti objek.
-  - **Encapsulation**: Pengaturan akses data (private, public, protected).
-  - **Inheritance**: Pewarisan properti dan metode dari class induk.
-  - **Polymorphism**: Kemampuan method untuk berperilaku berbeda berdasarkan context.
-  - **Abstract Class & Interface**: Membuat kerangka dasar class.
+OOP adalah pendekatan pemrograman yang membangun program dari objek yang berisi data dan aksi. OOP membantu mengelola aplikasi besar dengan memecahnya menjadi bagian-bagian kecil, mendukung reuse, dan meningkatkan keteraturan. Dalam PHP, OOP didukung lewat class, object, constructor, encapsulation, inheritance, polymorphism, abstract, dan interface.

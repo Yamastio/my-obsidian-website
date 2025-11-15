@@ -1,13 +1,11 @@
 ---
-id: web3
+id: psikologi
 aliases: []
 tags:
   - tag-index
-  - web3
+  - psikologi
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

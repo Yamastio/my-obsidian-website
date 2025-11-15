@@ -1,13 +1,11 @@
 ---
-id: web3
+id: html
 aliases: []
 tags:
   - tag-index
-  - web3
+  - html
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

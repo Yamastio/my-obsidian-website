@@ -1,13 +1,11 @@
 ---
-id: web3
+id: forensics
 aliases: []
 tags:
   - tag-index
-  - web3
+  - forensics
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

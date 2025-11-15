@@ -1,13 +1,11 @@
 ---
-id: web3
+id: cryptography
 aliases: []
 tags:
   - tag-index
-  - web3
+  - cryptography
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

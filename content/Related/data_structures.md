@@ -1,13 +1,11 @@
 ---
-id: web3
+id: data_structures
 aliases: []
 tags:
   - tag-index
-  - web3
+  - data_structures
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
-
-1. [[blockchain]]
+## Daftar isi

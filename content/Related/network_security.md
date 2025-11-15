@@ -1,13 +1,12 @@
 ---
-id: web3
+id: network_security
 aliases: []
 tags:
   - tag-index
-  - web3
+  - network_security
 ---
 
 Related: [[index|Home]]
 
-## Daftar Isi
+## Daftar isi
 
-1. [[blockchain]]
