@@ -1,13 +1,17 @@
 ---
-title: Ethical Hacking Concpets
-id: 251114-1548-x1
+id: Ethical Hacking Concepts
+aliases: []
+tags:
+  - ceh_v12
+  - cybersecurity
+comments: true
 date: 2025-11-14
 description: Ringkasan konsep dasar Ethical Hacking secara mendalam.
 draft: false
-comments: true
+title: Ethical Hacking Concpets
 ---
 
-Tags: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
+Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
 
 ## Apa itu Ethical Hacking?
 

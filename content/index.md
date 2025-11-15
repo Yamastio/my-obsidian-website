@@ -1,7 +1,9 @@
 ---
-id: 251114-1640-x1
-aliases: []
-tags: []
+id: index
+aliases:
+  - Home
+tags:
+  - root
 comments: false
 date: 2025-11-14
 description: Halaman utama knowledge base yang berisi navigasi, kategori, dan catatan penting.
@@ -14,11 +16,14 @@ Selamat datang di obsidian vault pribadi saya. Situs ini berisi kumpulan catatan
 
 
 ## Kategori Utama
-- [[cybersecurity|Cybersecurity]]
-- [[ceh_v12|CEH v12]]
-- [[web3|WEB3]]
-- [[Tags/blockchain|Blockchain]]
-- [[mysql|MySQL]]
+1. [[cybersecurity|Cybersecurity]]
+2. [[ceh_v12|CEH v12]]
+3. [[web3|WEB3]]
+4. [[Related/blockchain|Blockchain]]
+5. [[mysql|MySQL]]
+6. [[tryhackme|Tryhackme]]
+7. [[oop|OOP]]
+8. [[php|PHP]]
 
 ## Cara Menggunakan
 - Gunakan tag untuk navigasi struktur pengetahuan.

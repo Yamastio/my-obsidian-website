@@ -1,12 +1,13 @@
 ---
-id: 251114-2207-x1
+id: Apa Itu Database
+aliases: []
+tags:
+  - mysql
 comments: true
-date: 2025-11-14
-description: Ringkasan konsep dasar mengenai database.
 draft: false
-title: Apa itu Database
 ---
-Tags: [[index|Home]], [[mysql]]
+
+Related: [[index|Home]], [[mysql]]
 
 ## Apa itu Database
 
@@ -36,9 +37,9 @@ Satu unit data dalam sebuah tabel yang merepresentasikan satu entitas lengkap.
 Menentukan jenis data yang dapat disimpan pada sebuah kolom.
 Contoh:
 
-* varchar atau char untuk teks
-* integer untuk angka
-* date untuk tanggal
+- varchar atau char untuk teks
+- integer untuk angka
+- date untuk tanggal
 
 ### Query
 
@@ -50,10 +51,10 @@ Instruksi atau perintah yang digunakan untuk berinteraksi dengan database. Query
 
 Database dapat dianalogikan sebagai sebuah rak buku besar.
 
-* Setiap rak adalah tabel.
-* Setiap buku adalah record.
-* Informasi di dalam buku adalah data pada kolom.
-* Aturan seperti kategori atau label adalah tipe data.
+- Setiap rak adalah tabel.
+- Setiap buku adalah record.
+- Informasi di dalam buku adalah data pada kolom.
+- Aturan seperti kategori atau label adalah tipe data.
 
 ---
 
@@ -61,11 +62,11 @@ Database dapat dianalogikan sebagai sebuah rak buku besar.
 
 SQL adalah bahasa standar untuk mengelola dan berinteraksi dengan database relasional. SQL memungkinkan pengguna untuk:
 
-* Menyisipkan data
-* Mengambil data
-* Memperbarui data
-* Menghapus data
-* Membuat tabel dan struktur database
-* Mengatur hak akses
+- Menyisipkan data
+- Mengambil data
+- Memperbarui data
+- Menghapus data
+- Membuat tabel dan struktur database
+- Mengatur hak akses
 
 SQL digunakan oleh berbagai DBMS seperti MySQL, PostgreSQL, MariaDB, SQLite, dan lainnya.

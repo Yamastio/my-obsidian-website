@@ -2,3 +2,15 @@
 @use "./themes";
 
 // put your custom CSS here!
+// ===== FIX OBSIDIANITE BOLD COLOR =====
+strong, b {
+  color: inherit !important;        // jangan pakai warna biru dari tema
+  background: none !important;      // hilangkan block background warna biru
+  font-weight: 600;
+}
+
+// kalau bold+inline code juga kena warna biru
+strong code, b code {
+  background: none !important;
+  color: inherit !important;
+}

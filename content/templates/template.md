@@ -1,9 +1,9 @@
 ---
-title:
-id: 251114-xxxx-x1
-date:
-description:
-draft: false
+id: template
+aliases: []
+tags: []
 comments: true
+draft: false
 ---
-Tags: [[index|Home]]
+
+Related: [[index|Home]]

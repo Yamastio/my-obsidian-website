@@ -1,13 +1,17 @@
 ---
-title: Hacking Methodologies and Framework
-id: 251114-0708-x2
+id: Hacking Methodologies and Framework
+aliases: []
+tags:
+  - ceh_v12
+  - cybersecurity
+comments: true
 date: 2025-09-10
 description: Ringkasan lengkap metodologi hacking CEH, Cyber Kill Chain, TTPs, IOC, MITRE ATT&CK, dan Diamond Model.
 draft: false
-comments: true
+title: Hacking Methodologies and Framework
 ---
 
-Tags: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
+Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
 
 ## Cue
 

@@ -1,3 +1,0 @@
-## Daftar isi
-
-- [[Blockchain]]

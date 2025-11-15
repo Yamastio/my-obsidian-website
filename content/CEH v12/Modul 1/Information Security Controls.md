@@ -1,13 +1,17 @@
 ---
-title: Information Security Controls
-id: 251114-1658-x1
+id: Information Security Controls
+aliases: []
+tags:
+  - ceh_v12
+  - cybersecurity
+comments: true
 date: 2025-11-14
 description: Ringkasan konsep dasar mengenai information security controls.
 draft: false
-comments: true
+title: Information Security Controls
 ---
 
-Tags: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
+Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
 
 - Information Security Controls (ISC) membantu mencegah kejadian yang tidak diinginkan
 - Komponen terpenting dari organisasi adalah informasi

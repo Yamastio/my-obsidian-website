@@ -1,13 +1,17 @@
 ---
-title: Information Security Overview
-id: 251114-0708-x1
+id: Information Security Overview
+aliases: []
+tags:
+  - ceh_v12
+  - cybersecurity
+comments: true
 date: 2025-09-10
 description: "Ringkasan materi Information Security Overview: definisi, elemen keamanan, klasifikasi serangan, dan konsep Information Warfare."
 draft: false
-comments: true
+title: Information Security Overview
 ---
 
-Tags: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
+Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
 
 ## Cue
 

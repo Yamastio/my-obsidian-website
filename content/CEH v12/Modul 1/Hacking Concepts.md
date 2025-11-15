@@ -1,13 +1,17 @@
 ---
-title: Hacking Concepts
-id: 251114-0711-x1
+id: Hacking Concepts
+aliases: []
+tags:
+  - ceh_v12
+  - cybersecurity
+comments: true
 date: 2025-11-14
 description: Ringkasan konsep dasar hacking, tipe hacker, dan klasifikasinya.
 draft: false
-comments: true
+title: Hacking Concepts
 ---
 
-Tags: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
+Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
 
 ## Apa itu Hacking?
 

@@ -1,12 +1,16 @@
 ---
-id: 251114-0703-x1
+id: Blockchain
+aliases: []
+tags:
+  - web3
+  - blockchain
 date: 2024-12-05
 description: Penjelasan lengkap mengenai konsep Blockchain, karakteristik, cara kerja, dan penggunaannya.
 draft: false
 title: Blockchain
 ---
 
-Tags: [[blockchain|blockchain]], [[web3|web3]], [[index|Home]]
+Related: [[Course/Blockchain|Blockchain]], [[web3|web3]], [[index|Home]]
 
 Blockchain adalah teknologi buku besar digital yang terdistribusi untuk mencatat data atau transaksi dalam jaringan yang tidak terpusat. Data disimpan dalam blok yang saling terhubung secara kronologis sehingga membentuk rantai blok.
 
