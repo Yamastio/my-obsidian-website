@@ -6,6 +6,10 @@ tags:
   - javascript
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

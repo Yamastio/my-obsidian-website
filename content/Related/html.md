@@ -6,6 +6,10 @@ tags:
   - html
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

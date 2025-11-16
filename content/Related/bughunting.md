@@ -1,10 +1,16 @@
 ---
-id: notes
+id: bughunting
 aliases: []
 tags:
   - tag-index
 ---
 
+---
+
 Related: [[index|Home]]
 
+---
+
 ## Daftar isi
+
+1. 

@@ -1,39 +1,43 @@
 ---
 id: Definisi Ethical Hacking
-title: Definisi Ethical Hacking
-date: 2025-11-15
+aliases: []
 tags:
   - cybersecurity
+comments: true
+date: 2025-11-15
+draft: false
 source: ITTS
 status: Completed
-comments: true
-aliases: []
-draft: false
+title: Definisi Ethical Hacking
+---
+
 ---
 
 Related: [[index|Home]], [[cybersecurity]]
 
-## 💡 Key Points (Pertanyaan Utama)
+---
 
-- Apa itu Ethical Hacking?
-- Kenapa perlu belajar Ethical Hacking?
-- Apa saja yang dipelajari dalam Ethical Hacking?
-- Contoh kegiatan dalam pembelajaran Ethical Hacking?
+## Cue
+
+- Apa itu ethical hacking
+- Alasan mempelajari ethical hacking
+- Materi yang dipelajari
+- Contoh kegiatan pembelajaran
 
 ---
 
-## ✏️ Notes (Catatan Ringkas)
+## Notes
 
 ### Apa itu Ethical Hacking
 
-- Analogi: seperti dokter yang memeriksa pasien, ethical hacker memeriksa sistem untuk menemukan "penyakit" (kerentanan).
-- Definisi: praktik penggunaan teknik hacking untuk mengidentifikasi, menguji, dan memperbaiki kelemahan keamanan dalam suatu sistem.
+- Analogi: seperti dokter yang memeriksa pasien untuk menemukan penyakit.
+- Praktik menggunakan teknik hacking secara etis untuk mengidentifikasi, menguji, dan memperbaiki kerentanan sistem.
 
 ### Kenapa Perlu Belajar
 
-- Mencegah serangan: memahami cara kerja serangan agar dapat bertahan.
-- Memperbaiki sistem: menemukan dan menutup celah sebelum dimanfaatkan penyerang.
-- Meningkatkan keamanan siber: membantu membangun lingkungan digital yang lebih aman.
+- Memahami cara kerja serangan untuk mencegahnya.
+- Menemukan dan menutup celah sebelum dimanfaatkan penyerang.
+- Meningkatkan keamanan sistem dan ekosistem digital secara keseluruhan.
 
 ### Materi yang Dipelajari
 
@@ -42,15 +46,15 @@ Related: [[index|Home]], [[cybersecurity]]
 - Penggunaan tools hacking.
 - Etika dalam praktik hacking.
 
-### Contoh Kegiatan dalam Kuliah Ethical Hacking
+### Contoh Kegiatan dalam Ethical Hacking
 
 - Mempelajari teori dasar dan lanjutan.
-- Praktik langsung di laboratorium.
-- Pengerjaan tugas individu maupun kelompok.
+- Praktik langsung di lab.
+- Tugas individu dan kelompok.
 - Proyek akhir atau studi kasus.
 
 ---
 
-## 📎 Summary (Ringkasan Inti)
+## Summary
 
-Ethical Hacking adalah praktik menggunakan teknik hacking secara sah dan etis untuk mengidentifikasi serta memperbaiki kelemahan sistem. Dengan mempelajarinya, kita dapat mencegah serangan, memperkuat sistem, dan mendukung keamanan dunia digital. Pembelajaran mencakup teori, praktik, penggunaan tools, serta penerapan etika dalam setiap aktivitas.
+Ethical hacking adalah praktik menggunakan teknik hacking secara sah dan etis untuk menemukan serta memperbaiki kerentanan sistem. Pembelajaran mencakup teori, praktik, penggunaan tools, serta etika. Tujuannya meningkatkan keamanan, mencegah serangan, dan memperkuat sistem sebelum disalahgunakan pihak jahat.

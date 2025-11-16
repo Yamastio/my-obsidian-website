@@ -9,7 +9,11 @@ draft: false
 title: php
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi
 

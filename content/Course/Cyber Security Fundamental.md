@@ -5,53 +5,55 @@ tags:
   - cybersecurity
 comments: true
 date: 2025-11-15
+draft: false
 source: Jagoan Siber
 title: Cyber Security Fundamental
-draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[cybersecurity]]
 
-## 💡 Key Points (Pertanyaan Utama)
+---
 
-- Apa itu cyber security?
-- Mengapa karir di bidang cyber security menjanjikan?
-- Perbedaan antara white hat dan black hat hacker.
+## Cue
+
+- Definisi cyber security
+- Mengapa karir cyber security menjanjikan
+- Perbedaan white hat vs black hat
 
 ---
 
-## ✏️ Notes (Catatan Ringkas)
+## Notes
 
 ### Definisi Cyber Security
 
-- Praktik untuk melindungi **sistem komputer, jaringan, perangkat, dan data** dari ancaman atau serangan dunia maya.
+- Praktik melindungi sistem komputer, jaringan, perangkat, dan data dari ancaman atau serangan dunia maya.
 
 ### Karir di Cyber Security
 
-- Potensi karir sangat menjanjikan saat ini dan di masa depan.
-- Permintaan ahli keamanan siber terus meningkat, sementara jumlah SDM terbatas.
-- Karir di bidang ini umumnya menawarkan **gaji tinggi**.
-- Memberikan kesempatan untuk **berbuat baik** dengan menjaga keamanan sistem dan data.
+- Permintaan profesional sangat tinggi dan terus meningkat.
+- Ketersediaan SDM terbatas sehingga peluang besar.
+- Gaji kompetitif.
+- Berkontribusi menjaga keamanan dan integritas sistem.
 
 ### Alasan Belajar Cyber Security
 
-1. Permintaan profesional keamanan siber meningkat seiring perkembangan teknologi.
-2. Ketersediaan SDM terbatas sehingga peluang tinggi.
-3. Karir menawarkan gaji kompetitif.
-4. Kesempatan berkontribusi pada keamanan dan perlindungan sistem.
+1. Permintaan tenaga ahli meningkat seiring pertumbuhan teknologi.
+2. SDM terbatas → peluang besar.
+3. Gaji tinggi dan kompetitif.
+4. Memberi dampak positif terhadap keamanan sistem dan data.
 
 ### White Hat vs Black Hat Hacker
 
-| Aspek     | White Hat / Ethical Hacker                | Black Hat Hacker                                                                              |
-| --------- | ----------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Prosedur  | Legal                                     | Ilegal                                                                                        |
-| Motivasi  | Menjaga keamanan sistem, niat baik        | Membobol sistem untuk keuntungan pribadi, politik, atau kerugian orang lain                   |
-| Aktivitas | Pentesting, mengembangkan produk keamanan | Menulis malware (virus, trojan, ransomware), phising, eksploitasi kerentanan, SMS fraud, dll. |
+| Aspek     | White Hat / Ethical Hacker             | Black Hat Hacker                                                            |
+| --------- | -------------------------------------- | --------------------------------------------------------------------------- |
+| Prosedur  | Legal                                  | Ilegal                                                                      |
+| Motivasi  | Menjaga keamanan, niat baik            | Keuntungan pribadi, politik, atau merugikan pihak lain                      |
+| Aktivitas | Pentesting, kembangkan produk keamanan | Malware, phishing, eksploitasi kerentanan, SMS fraud, dan kegiatan kriminal |
 
 ---
 
-## 📎 Summary (Ringkasan Inti)
+## Summary
 
-- Cyber security adalah praktik melindungi sistem dan data dari ancaman siber.
-- Karir di bidang ini menjanjikan karena permintaan tinggi dan SDM terbatas.
-- White hat hacker bertindak secara legal untuk meningkatkan keamanan, sementara black hat hacker melakukan aktivitas ilegal untuk keuntungan pribadi atau merugikan pihak lain.
+Cyber security adalah praktik melindungi sistem dan data dari ancaman digital. Karirnya menjanjikan karena permintaan tinggi dan SDM yang masih terbatas. White hat bekerja secara legal untuk meningkatkan keamanan, sedangkan black hat melakukan aktivitas ilegal untuk keuntungan pribadi atau merugikan pihak lain.

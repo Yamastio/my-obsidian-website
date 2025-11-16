@@ -6,6 +6,10 @@ tags:
   - psikologi
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

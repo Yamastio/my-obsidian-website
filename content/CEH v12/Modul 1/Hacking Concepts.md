@@ -11,89 +11,51 @@ draft: false
 title: Hacking Concepts
 ---
 
+---
+
 Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
 
-## Apa itu Hacking?
+---
 
-- Merujuk pada kegiatan mengeksploitasi kelemahan sistem dan menaklukkan kontrol keamanan untuk mendapatkan akses ke sistem
-- Termasuk memodifikasi sistem atau fitur aplikasi untuk mencapai tujuan tertentu
-- Bisa digunakan untuk mencuri dan mendistribusikan data yang menyebabkan kerugian bisnis
+## Cue
 
-## Siapa itu Hacker?
+- Apa itu Hacking?
+- Siapa itu Hacker?
+- Apa saja klasifikasi Hacker?
 
-- Individu dengan kemampuan komputer yang tinggi, dapat membuat dan menjelajahi software maupun hardware
-- Bagi sebagian hacker, hacking adalah hobi untuk melihat bagaimana sistem bekerja dan bagaimana cara menaklukkannya
-- Motivasi bisa bermacam-macam: belajar, menguji sistem, atau tindakan ilegal
+---
 
-## Hacker Classes
+## Notes
 
-### 01. Black Hat
+### Apa itu Hacking?
 
-- Individu dengan kemampuan komputer tingkat tinggi yang melakukan tindakan jahat
-- Bertujuan merusak sistem atau mengeksploitasi untuk keuntungan pribadi
-- Disebut juga cracker
+- Merujuk pada kegiatan mengeksploitasi kelemahan sistem dan menaklukkan kontrol keamanan untuk mendapatkan akses ke sistem.
+- Termasuk memodifikasi sistem atau fitur aplikasi untuk mencapai tujuan tertentu.
+- Bisa digunakan untuk mencuri dan mendistribusikan data yang menyebabkan kerugian bisnis.
 
-### 02. White Hat
+### Siapa itu Hacker?
 
-- Dikenal sebagai penetration tester
-- Menggunakan kemampuan hacking untuk tujuan defensif dan peningkatan keamanan
-- Bekerja dengan izin dari pemilik sistem atau organisasi
+- Individu dengan kemampuan komputer yang tinggi, dapat membuat dan menjelajahi software maupun hardware.
+- Bagi sebagian hacker, hacking adalah hobi untuk melihat bagaimana sistem bekerja dan bagaimana cara menaklukkannya.
+- Motivasi bisa bermacam-macam: belajar, menguji sistem, atau tindakan ilegal.
 
-### 03. Gray Hat
+### Klasifikasi Hacker
 
-- Bekerja di dua sisi, menyerang sekaligus bertahan
-- Membantu menemukan kelemahan sistem
-- Kadang membantu vendor meningkatkan keamanan produknya
+- **Black Hat**: Melakukan tindakan jahat untuk keuntungan pribadi; disebut juga cracker.
+- **White Hat**: Menggunakan skill untuk tujuan defensif dan bekerja dengan izin; dikenal sebagai penetration tester.
+- **Gray Hat**: Bekerja di dua sisi (menyerang dan bertahan), terkadang membantu vendor.
+- **Suicide Hacker**: Menciptakan kekacauan tanpa peduli konsekuensi hukum.
+- **Script Kiddies**: Hacker tanpa skill mendalam, menggunakan script orang lain untuk popularitas.
+- **Cyber Terrorist**: Termotivasi agama atau politik untuk menciptakan ketakutan skala besar.
+- **State-Sponsored Hackers**: Bekerja untuk pemerintah menyerang infrastruktur negara lawan.
+- **Hacktivist**: Menyerang pemerintah atau organisasi sebagai bentuk protes.
+- **Industrial Spies**: Memata-matai kompetitor untuk mencuri data penting.
+- **Insider**: Individu dengan akses resmi yang menyalahgunakan wewenangnya.
+- **Criminal Syndicate**: Kelompok kriminal terorganisir untuk kejahatan digital kompleks.
+- **Organized Hacker**: Kelompok terstruktur yang mencuri uang atau data secara tersembunyi.
 
-### 04. Suicide Hacker
+---
 
-- Memiliki tujuan menciptakan kekacauan tanpa memedulikan konsekuensinya
-- Tidak peduli risiko penjara atau hukuman
-- Mengorbankan diri untuk menyerang
+## Summary
 
-### 05. Script Kiddies
-
-- Hacker tanpa skill mendalam, menggunakan script orang lain
-- Fokus pada kuantitas serangan
-- Tidak memiliki tujuan khusus, hanya mengejar popularitas
-
-### 06. Cyber Terrorist
-
-- Individu dengan skill luas, termotivasi agama atau politik
-- Bertujuan menciptakan ketakutan dalam skala besar
-
-### 07. State-Sponsored Hackers
-
-- Individu ahli yang bekerja untuk pemerintah
-- Menyerang infrastruktur negara lawan untuk mendeteksi atau mengeksploitasi kelemahan
-
-### 08. Hacktivist
-
-- Aktivis digital yang menyerang pemerintah atau organisasi sebagai bentuk protes
-- Biasanya mempublikasi informasi yang berhasil dicuri
-- Target umum: agenda pemerintah, institusi keuangan
-
-### 09. Industrial Spies
-
-- Melakukan spionase industri untuk memata-matai kompetitor
-- Fokus mencuri data penting
-- Menggunakan APT agar tidak terdeteksi bertahun-tahun
-
-### 10. Insider
-
-- Individu yang memiliki akses resmi ke aset penting organisasi
-- Dapat membypass keamanan internal
-- Muncul dari karyawan tidak puas, dipecat, atau kurang terlatih
-
-### 11. Criminal Syndicate
-
-- Kelompok kriminal terorganisir yang merencanakan kejahatan digital
-- Beroperasi lintas yurisdiksi sehingga sulit dilacak
-- Tujuan utama: pencurian uang, pencucian uang, dan aktivitas kriminal kompleks
-
-### 12. Organized Hacker
-
-- Kelompok hacker dengan struktur dan hierarki tertentu
-- Menggunakan alat sewaan seperti botnets atau malware-as-a-service
-- Mencuri uang, menjual data, menipu properti intelektual
-- Beroperasi secara tersembunyi untuk waktu yang lama
+Hacking adalah aktivitas mengeksploitasi kelemahan sistem untuk mendapatkan akses tidak sah, seringkali dengan tujuan memodifikasi atau mencuri data. Hacker adalah individu dengan kemampuan teknis tinggi yang tindakannya diklasifikasikan berdasarkan motivasi, mulai dari **White Hat** yang bersifat defensif, **Black Hat** yang jahat, hingga **Gray Hat** yang berada di antaranya. Terdapat pula klasifikasi lain seperti **Script Kiddies**, **Hacktivist**, dan **State-Sponsored Hackers**, yang masing-masing memiliki tujuan dan metode yang berbeda.

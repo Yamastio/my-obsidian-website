@@ -6,24 +6,38 @@ tags:
   - databases
   - sql
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
 ---
+
+---
+
 Related: [[index|Home]], [[mysql]], [[databases]], [[sql]]
 
-## Cross Join
+---
 
-### Konsep
+## Cue
 
-Cross Join akan menggabungkan **setiap baris** dari tabel pertama dengan **setiap baris** dari tabel kedua (cartesian product).
-Jika tabel A berisi 5 baris dan tabel B berisi 10 baris, hasilnya 5 × 10 = **50 baris**.
+- Cross Join: konsep, penggunaan, contoh
+- Straight Join: konsep, penggunaan, contoh
 
-### Kapan digunakan
+---
 
-* Untuk membuat kombinasi semua kemungkinan antara dua tabel.
-* Biasanya dihindari kecuali memang diperlukan, karena hasilnya bisa sangat besar.
+## Notes
 
-### Contoh
+### Cross Join
+
+**Konsep**
+
+- Menggabungkan setiap baris tabel pertama dengan setiap baris tabel kedua (cartesian product)
+- Jika tabel A = 5 baris dan tabel B = 10 baris → hasil = 50 baris
+
+**Kapan digunakan**
+
+- Untuk membuat semua kombinasi kemungkinan antar dua tabel
+- Biasanya dihindari karena hasil bisa sangat besar
+
+**Contoh**
 
 ```sql
 SELECT * FROM products
@@ -31,35 +45,24 @@ CROSS JOIN customers
 LIMIT 10;
 ```
 
-Penjelasan:
+- Menggabungkan semua baris dari products dan customers
+- LIMIT digunakan agar output tidak terlalu besar
 
-* Menggabungkan semua baris dari `products` dengan semua baris dari `customers`.
-* `LIMIT 10` digunakan agar output tidak terlalu besar.
+### Straight Join
 
----
+**Konsep**
 
-## Straight Join
+- STRAIGHT_JOIN memaksa MySQL mengikuti urutan tabel sesuai penulisan
+- Menonaktifkan optimizer yang biasanya menukar urutan tabel untuk performa
+- Contoh: A STRAIGHT_JOIN B → baca A dahulu, cocokkan dengan B
 
-### Konsep
+**Kapan digunakan**
 
-`STRAIGHT_JOIN` adalah jenis join yang memaksa MySQL menggunakan **urutan tabel** sebagaimana kamu menulisnya.
-Normalnya MySQL optimizer bisa menukar urutan tabel untuk mencari eksekusi paling cepat, tapi `STRAIGHT_JOIN` mematikan optimasi itu.
+- Saat optimizer memilih urutan tabel yang buruk sehingga query lambat
+- Untuk tuning performa pada tabel besar
+- Tidak digunakan untuk kebutuhan sehari-hari
 
-Jadi:
-
-```
-A STRAIGHT_JOIN B
-```
-
-berarti MySQL harus membaca A dulu, lalu mencocokkan dengan B sesuai kondisi join.
-
-### Kapan digunakan
-
-* Saat query optimizer MySQL memilih urutan tabel yang buruk sehingga query menjadi lambat.
-* Untuk tuning performa pada tabel besar.
-* **Bukan** untuk penggunaan sehari-hari.
-
-### Contoh
+**Contoh**
 
 ```sql
 SELECT * FROM customers
@@ -68,10 +71,12 @@ WHERE orders.customer_id = 1
 LIMIT 10;
 ```
 
-Penjelasan:
-
-* MySQL akan membaca tabel `customers` terlebih dahulu, kemudian mencocokkan dengan tabel `orders`.
-* Kondisi join didefinisikan di bagian `WHERE`.
-* Hasilnya adalah baris dari kedua tabel yang memenuhi `orders.customer_id = 1`.
+- MySQL membaca customers terlebih dahulu
+- Pencocokan dilakukan dengan orders
+- Menghasilkan baris yang memenuhi kondisi customer_id = 1
 
 ---
+
+## Summary
+
+Cross Join menghasilkan cartesian product dari dua tabel dan digunakan saat perlu semua kombinasi data. Straight Join memaksa MySQL mengikuti urutan tabel untuk tuning performa ketika optimizer kurang optimal.

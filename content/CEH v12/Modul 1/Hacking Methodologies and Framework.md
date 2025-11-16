@@ -11,187 +11,80 @@ draft: false
 title: Hacking Methodologies and Framework
 ---
 
+---
+
 Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
+
+---
 
 ## Cue
 
 - Apa itu CEH Methodology?
-- Footprinting, Scanning, Enumeration
-- Vulnerability Analysis dan System Hacking
-- Cyber Kill Chain
-- TTPs
-- IOC dan macam-macamnya
-- MITRE ATT&CK Framework
-- Diamond Model
+- Apa saja tahapan dalam Cyber Kill Chain?
+- Apa itu TTPs, IOC, dan MITRE ATT&CK Framework?
+- Apa itu Diamond Model of Intrusion Analysis?
 
-## CEH Methodology (CHM)
+---
 
-### 1. Footprinting
+## Notes
 
-- Tahap persiapan: mengumpulkan informasi sebanyak mungkin
-- Profiling organisasi: IP range, namespace, karyawan
-- Social engineering dapat dilakukan berdasarkan informasi publik
-- Whois query mengungkap informasi domain dan organisasi
-- Lingkup: organisasi, karyawan, operasi, network, sistem
+### CEH Methodology (CHM)
 
-### 2. Scanning
+1.  **Footprinting**: Mengumpulkan informasi awal tentang target.
+2.  **Scanning**: Mengidentifikasi host aktif dan port terbuka.
+3.  **Enumeration**: Mengambil data detail seperti user list dan routing table.
+4.  **Vulnerability Analysis**: Mengidentifikasi kelemahan keamanan.
+5.  **System Hacking**:
+    - **Gaining Access**: Mengeksploitasi kelemahan untuk masuk ke sistem.
+    - **Escalating Privileges**: Meningkatkan hak akses.
+    - **Maintaining Access**: Menjaga akses jangka panjang dengan backdoor.
+    - **Clearing Logs**: Menghapus jejak aktivitas.
 
-- Mengidentifikasi host aktif, open ports, perangkat terhubung
-- Merupakan perpanjangan dari active reconnaissance
-- Scanning dan reconnaissance sering berjalan bersamaan
+### Cyber Kill Chain Methodology
 
-### 3. Enumeration
+Framework untuk mendeteksi dan mencegah serangan siber, terdiri dari 7 tahapan:
+1.  **Reconnaissance**: Mengumpulkan informasi target.
+2.  **Weaponization**: Membuat payload (malware/exploit).
+3.  **Delivery**: Mengirim payload ke target.
+4.  **Exploitation**: Mengeksekusi payload untuk memanfaatkan kelemahan.
+5.  **Installation**: Menginstall malware atau backdoor.
+6.  **Command & Control (C2)**: Membuat channel komunikasi dengan target.
+7.  **Action on Objectives**: Mencapai tujuan akhir (mencuri data, merusak sistem).
 
-- Koneksi langsung ke target
-- Mengambil data seperti: user list, routing table, security flaws, shared resources, banner
+### Tactics, Techniques, and Procedures (TTPs)
 
-### 4. Vulnerability Analysis
+- **Tactic**: Pedoman langkah serangan.
+- **Technique**: Metode teknis yang digunakan.
+- **Procedure**: Rangkaian langkah sistematis.
+- TTPs membantu dalam memprediksi, mendeteksi, dan memahami motif penyerang.
 
-- Mengidentifikasi dan mengklasifikasikan kelemahan keamanan
-- Digunakan untuk mengetahui sejauh mana eksploitasi dapat dilakukan
+### Indicator of Compromise (IOC)
 
-### 5. System Hacking
+- Petunjuk adanya aktivitas berbahaya pada sistem atau jaringan.
+- **Kategori IOC**:
+    - **Email Indicators**: Subjek atau attachment mencurigakan.
+    - **Network Indicators**: URL, domain, atau IP berbahaya.
+    - **Host-Based Indicators**: File abnormal, hash, atau registry key.
+    - **Behavioral Indicators**: Perilaku aneh seperti dokumen yang menjalankan PowerShell.
 
-#### a. Gaining Access
+### MITRE ATT&CK Framework
 
-- Fase inti hacking
-- Memanfaatkan password cracking, exploit, buffer overflow
-- Setelah akses didapatkan, dilakukan privilege escalation dan mencoba mempertahankan akses
+- Basis pengetahuan global tentang taktik dan teknik serangan yang digunakan oleh penyerang.
+- Terdiri dari 14 taktik untuk enterprise, mulai dari Reconnaissance hingga Impact.
+- Digunakan untuk pemetaan musuh, deteksi, dan mitigasi serangan.
 
-#### b. Escalating Privileges
+### Diamond Model of Intrusion Analysis
 
-- Meningkatkan hak akses dari low-privilege menjadi admin
+- Framework untuk menganalisis rangkaian peristiwa dalam sebuah serangan siber.
+- **Elemen Inti**:
+    - **Adversary**: Penyerang.
+    - **Victim**: Korban.
+    - **Capability**: Kemampuan atau alat yang digunakan.
+    - **Infrastructure**: Infrastruktur yang digunakan untuk serangan.
+- Model ini dapat diperluas dengan meta-features seperti waktu, fase, dan hasil serangan.
 
-#### c. Maintaining Access
+---
 
-- Menjaga akses jangka panjang
-- Upload/hapus data, pivoting, mengamankan backdoor
+## Summary
 
-#### d. Clearing Logs
-
-- Menghapus jejak aktivitas untuk menghindari deteksi
-
-## Cyber Kill Chain Methodology
-
-![[ceh2.png]]
-
-- Framework berbasis intelijen untuk mendeteksi dan mencegah aktivitas berbahaya
-- Dikembangkan berdasarkan konsep _Military Kill Chain_
-
-### 1. Reconnaissance
-
-- Mengumpulkan informasi sebanyak mungkin
-- Meliputi: OSINT, DNS, Whois, scanning, analisis aktivitas publik
-
-### 2. Weaponization
-
-- Menganalisis hasil reconnaissance untuk menentukan kelemahan
-- Membuat/memilih payload: malware, exploit, phishing campaign
-
-### 3. Delivery
-
-- Mengirim payload ke target melalui email, USB, web kompromi, dll
-
-### 4. Exploitation
-
-- Payload dieksekusi
-- Melibatkan auth attacks, arbitrary code execution, dan misconfiguration
-
-### 5. Installation
-
-- Menginstall malware/backdoor untuk mempertahankan akses
-
-### 6. Command & Control
-
-- Membuat channel komunikasi dua arah
-- Menggunakan enkripsi untuk penyembunyian
-
-### 7. Action on Objectives
-
-- Penyerang mencapai tujuan: mencuri data, merusak sistem, meluncurkan serangan lanjutan
-
-## Tactics, Techniques, and Procedures (TTPs)
-
-- Tactic: Pedoman langkah serangan
-- Technique: Metode teknis yang digunakan
-- Procedure: Rangkaian langkah sistematis
-- Membantu memprediksi, mendeteksi, dan memahami motif penyerang
-
-## Adversary Behavior Identification
-
-1. Internal Reconnaissance
-2. Use of PowerShell
-3. Unspecified Proxy Activities
-4. Use of CLI
-5. HTTP User Agent anomalies
-6. Command & Control Server detection
-7. DNS Tunneling
-8. Web Shell detection
-9. Data Staging
-
-## Indicator of Compromise (IOC)
-
-- What: Petunjuk adanya aktivitas berbahaya
-- Dibagi menjadi 3:
-  - Atomic Indicator (IP, email)
-  - Computed Indicator (hash, regex)
-  - Behavioral Indicator (logika gabungan, pola perilaku)
-
-## Kategori IOC
-
-### Email Indicators
-
-- Subjek mencurigakan, attachment, link berbahaya
-
-### Network Indicators
-
-- URL, domain, IP, aktivitas C2
-
-### Host-Based Indicators
-
-- File abnormal, hash, registry keys, DLL, mutex
-
-### Behavioral Indicators
-
-- Perilaku abnormal seperti document menjalankan PowerShell
-
-## Key Indicators of Compromise
-
-1. Trafik keluar tidak biasa
-2. Aktivitas abnormal pada privileged account
-3. Anomali geolokasi
-4. Login gagal
-5. HTML response besar
-6. Repeated requests
-7. Lalu lintas port tidak wajar
-8. Registry berubah
-9. DNS request abnormal
-10. Patch system aneh
-11. Indikasi DDoS
-12. Data berada di lokasi tidak semestinya
-13. Web traffic superhuman
-
-## MITRE ATT&CK Framework
-
-- Pengetahuan global tentang taktik dan teknik serangan
-- Enterprise memiliki 14 taktik: Recon hingga Impact
-- Digunakan untuk: pemetaan musuh, deteksi, mitigasi
-
-## Diamond Model of Intrusion Analysis
-
-- Framework untuk mengidentifikasi rangkaian event dalam serangan
-- Elemen inti:
-  - Adversary
-  - Victim
-  - Capability
-  - Infrastructure
-
-### Additional Event Meta Features
-
-- Timestamp, Phase, Result, Direction, Methodology, Resource
-
-### Extended Diamond Model
-
-- Menambahkan:
-  1. Socio-political meta-feature
-  2. Technology meta-feature
+Metodologi hacking adalah serangkaian langkah terstruktur yang digunakan penyerang untuk menargetkan sistem. **CEH Methodology** mencakup tahapan dari Footprinting hingga Clearing Logs. **Cyber Kill Chain** menyediakan framework 7 langkah dari Reconnaissance hingga Action on Objectives. Konsep penting lainnya termasuk **TTPs** (Tactics, Techniques, Procedures) untuk memahami perilaku penyerang, **IOC** (Indicator of Compromise) sebagai bukti adanya intrusi, serta **MITRE ATT&CK** dan **Diamond Model** yang berfungsi sebagai kerangka kerja untuk analisis dan pertahanan terhadap serangan siber.

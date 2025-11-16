@@ -3,123 +3,43 @@ id: Broken Authentication & Session Management
 aliases: []
 tags:
   - cybersecurity
+  - web_security
 comments: true
 date: 2025-09-21
 title: Broken Authentication & Session Management
 ---
-Related: [[index|Home]], [[cybersecurity]]
-
-## Authentication & Session Security 
-
-Bayangkan sistem login seperti **pintu masuk rumah**. Tujuanmu: memastikan hanya pemilik rumah yang bisa masuk, dan tamu tidak bisa diam-diam ikut masuk lewat celah pintu.
-
-Masalahnya: banyak rumah digital dibangun dengan pintu yang “kelihatannya aman”, tapi sebenarnya longgar. Berikut penjelasannya secara sederhana.
 
 ---
 
-## 1. Bypass 2FA
-
-Banyak situs membuat tahap 2FA seperti ini:
-
-1. Cek password → benar
-2. Minta OTP → tapi sudah bikin “sesi setengah jadi”
-
-Kesalahan fatal: **sesi setengah jadi ini kadang dianggap sesi penuh**.
-Akibatnya, kamu bisa *langsung masuk ke dashboard* meski belum masukkan OTP.
-
-Trik penyerang:
-
-* Akses halaman sensitif langsung (`/dashboard`)
-* Manipulasi cookie yang diberikan sebelum OTP
-* Brute-force OTP karena tidak ada rate-limit
-
-Inti masalah: **OTP ada, tapi tidak divalidasi dengan benar**.
+Related: [[index|Home]], [[cybersecurity]], [[web_security]]
 
 ---
 
-## 2. Password Reset Lemah
+## Cue
 
-Bayangkan reset password seperti mengirim “kunci cadangan”.
-Jika kunci ini:
-
-* terlalu pendek
-* bisa ditebak
-* tidak kedaluwarsa
-* atau bisa dicoba berkali-kali
-
-Maka rumahmu bisa dibuka orang lain hanya dengan menebak-nebak kombinasi.
-
-Penyerang cukup brute-force token reset pendek sampai muncul respons berbeda.
-
-Solusi sederhana: **buat kunci reset panjang, acak, dan hanya berlaku sekali**.
+- Apa itu masalah pada autentikasi dan sesi
+- Bagaimana bypass 2FA terjadi
+- Mengapa password reset bisa dieksploitasi
+- Apa contoh authentication bypass via direct access
+- Apa bahaya session token lemah
+- Apa itu session fixation
+- Mengapa session timeout penting
 
 ---
 
-## 3. Authentication Bypass via Direct Access
+## Notes
 
-Developer kadang membuat kode begini:
-
-```plaintext
-if (!login) redirect ke login.php
-// tapi tetap lanjut render halaman sensitif
-```
-
-Browser memang pindah ke halaman login,
-tapi penyerang bisa melihat *isi sebenarnya* dengan curl/Burp.
-
-Kesalahan kecil (`header tanpa exit()`) → efek besar: bypass login.
+- Sistem login dianalogikan sebagai pintu rumah; masalah muncul ketika akses diberikan sebelum semua verifikasi selesai.
+- **Bypass 2FA**: beberapa aplikasi membuat “sesi setengah jadi” setelah password benar. Jika OTP tidak divalidasi dengan benar, penyerang bisa langsung akses `/dashboard`, memanipulasi cookie pre-OTP, atau brute-force OTP tanpa rate-limit. Inti: OTP ada tetapi tidak benar-benar diperiksa.
+- **Password reset lemah**: token reset yang pendek, mudah ditebak, tidak kedaluwarsa, atau bisa dicoba berulang kali dapat dibrute-force. Solusi: token panjang, acak, dan single-use.
+- **Authentication bypass via direct access**: kesalahan umum seperti redirect tanpa `exit()` membuat halaman sensitif tetap dirender meski tidak login. Penyerang bisa melihat konten melalui curl/Burp meski browser dialihkan ke login.
+- **Session token lemah**: token yang punya pola, mudah ditebak, atau hanya hasil encoding dapat dipalsukan. Penyerang brute-force bagian token yang berubah. Solusi: token acak, panjang, dan rutin dirotasi.
+- **Session fixation**: jika session ID tidak diganti setelah login, penyerang dapat memberi korban token yang disiapkan sebelumnya; setelah korban login, token sama sehingga penyerang ikut masuk.
+- **Session timeout buruk**: sesi yang tidak kedaluwarsa membuat akses tetap terbuka jika token bocor. Timeout 15–30 menit plus rotasi token membantu membatasi risiko.
+- Inti: kelemahan autentikasi muncul karena terlalu cepat mempercayai input, verifikasi tidak lengkap, percobaan tanpa batas, token dapat ditebak, dan sesi tidak ditutup dengan benar.
 
 ---
 
-## 4. Session Tokens Lemah
+## Summary
 
-Token sesi adalah “kartu akses”.
-Jika kartu itu:
-
-* mudah ditebak
-* punya pola
-* hanya encoded, bukan acak
-
-Maka penyerang bisa menghasilkan kartu palsu dan masuk sebagai korban.
-
-Cara eksploitasi: brute-force sebagian token yang berubah.
-
-Solusi: **token harus acak total, panjang, dan dirotasi secara berkala**.
-
----
-
-## 5. Session Fixation
-
-Jika aplikasi tidak mengganti session ID setelah login,
-penyerang bisa menyiapkan token *sebelum* korban login.
-Setelah korban masuk, tokennya tetap sama → penyerang ikut masuk.
-
-Ini seperti memberi korban kunci palsu yang kamu gandakan duluan.
-
----
-
-## 6. Session Timeout Buruk
-
-Sesi yang tidak kedaluwarsa = pintu tidak pernah terkunci.
-Jika token bocor, akun bisa dibuka kapan saja.
-
-Timeout 15–30 menit + rotasi token = pintu otomatis terkunci ulang.
-
----
-
-## Inti Semua Masalah
-
-Kelemahan autentikasi biasanya terjadi karena aplikasi:
-
-* mempercayai sesuatu terlalu cepat
-* tidak mengecek sesuatu yang harusnya diperiksa
-* membiarkan penyerang mencoba berkali-kali
-* menggunakan token yang bisa ditebak
-* lupa menutup pintu (timeout)
-
----
-
-## Ringkasannya dalam satu kalimat
-
-Sistem autentikasi yang aman adalah sistem yang **tidak memberi akses sampai semua langkah diverifikasi, token benar-benar acak, percobaan dibatasi, sesi diganti setelah login, dan pintu otomatis terkunci setelah beberapa waktu**.
-
+Masalah autentikasi dan sesi muncul ketika aplikasi tidak memvalidasi setiap tahap, menggunakan token yang lemah, membiarkan brute-force, tidak mengganti session ID setelah login, atau tidak memiliki timeout. Sistem aman harus memverifikasi semua langkah, membatasi percobaan, menggunakan token acak, merotasi sesi, dan otomatis mengakhiri sesi setelah waktu tertentu.

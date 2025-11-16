@@ -5,44 +5,54 @@ tags:
   - programming
   - devops
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[programming]], [[devops]]
 
-**Sharing** adalah komponen penting dalam CALMS Framework yang menekankan pentingnya transparansi, komunikasi, dan berbagi tanggung jawab dalam tim. Berikut adalah poin-poin kunci mengenai **Sharing**:
+---
+
+## Cue
+
+- Budaya keterbukaan
+- Berbagi tanggung jawab
+- Prinsip You Build It, You Run It
+- Manfaat transformasi DevOps
 
 ---
 
-## 1. Budaya Keterbukaan
+## Notes
 
-- **Transparansi**: Pastikan informasi dan komunikasi mengalir secara terbuka di seluruh tim.
-- **Kolaborasi**: Bekerja sama menuju tujuan bersama untuk mengurangi gesekan dan masalah.
+### Budaya Keterbukaan
+
+- Transparansi informasi dan komunikasi di seluruh tim
+- Kolaborasi untuk mencapai tujuan bersama
+- Mengurangi gesekan dan masalah melalui komunikasi terbuka
+
+### Berbagi Tanggung Jawab
+
+- Developer dan Ops berbagi tanggung jawab atas aplikasi
+- Kepemilikan bersama terhadap hasil kerja
+- Jika aplikasi gagal, evaluasi dan perbaikan dilakukan kolektif
+
+### Prinsip “You Build It, You Run It”
+
+- Pengembang yang membangun aplikasi juga bertanggung jawab menjalankannya
+- Meningkatkan rasa memiliki terhadap tools dan proses delivery
+- Mendorong kualitas lebih baik karena developer merasakan dampak langsung
+
+### Manfaat Transformasi DevOps
+
+- Kepercayaan antar tim meningkat
+- Proses rilis lebih cepat
+- Infrastruktur lebih andal
+- Feedback loop lebih efektif antara tim dan pelanggan
 
 ---
 
-## 2. Berbagi Tanggung Jawab
+## Summary
 
-- **Shared Responsibility**: Developer dan IT Operations berbagi tanggung jawab untuk aplikasi yang mereka bangun.
-- **Kepemilikan Bersama**: Jika aplikasi gagal, tim secara kolektif bertanggung jawab untuk evaluasi dan perbaikan.
-
----
-
-## 3. Prinsip “You Build It, You Run It
-
-- **Keterlibatan dalam Delivery**: Orang yang membangun aplikasi juga terlibat dalam proses penyajian ke pelanggan.
-- **Rasa Memiliki**: Meningkatkan kepemilikan terhadap tools dan peran dalam tim.
-
----
-
-## 4. Manfaat Transformasi DevOps
-
-- **Peningkatan Kepercayaan**: Membina rasa kepercayaan antara tim.
-- **Kecepatan Rilis**: Mempercepat proses rilis aplikasi.
-- **Keandalan Infrastruktur**: Meningkatkan keandalan sistem yang mendukung aplikasi.
-- **Feedback Loop**: Meningkatkan umpan balik antara tim dan pelanggan.
-
----
-
-**Kesimpulan:** Mengadopsi DevOps memerlukan proses panjang dengan integrasi filosofi, praktik, dan tools yang tepat. Berbagi tanggung jawab dan menciptakan budaya keterbukaan dapat menghasilkan manfaat signifikan, termasuk kepercayaan tim yang lebih baik, kecepatan rilis yang meningkat, keandalan yang lebih tinggi, dan umpan balik yang lebih efektif.
+Sharing dalam CALMS menekankan transparansi, kolaborasi, dan tanggung jawab bersama. Dengan prinsip You Build It, You Run It, tim memiliki rasa kepemilikan lebih kuat terhadap aplikasi. Transformasi DevOps menghasilkan manfaat seperti kecepatan rilis, keandalan sistem, dan peningkatan kepercayaan tim.

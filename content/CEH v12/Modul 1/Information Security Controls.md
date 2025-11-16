@@ -11,117 +11,68 @@ draft: false
 title: Information Security Controls
 ---
 
+---
+
 Related: [[index|Home]], [[ceh_v12]], [[cybersecurity]]
 
-- Information Security Controls (ISC) membantu mencegah kejadian yang tidak diinginkan
-- Komponen terpenting dari organisasi adalah informasi
+---
 
-## Information Assurance (IA)
+## Cue
 
-- Merujuk pada integritas, ketersediaan, kerahasiaan dan autentikasi informasi dan keamanan sistem selama digunakan, di proses dan didistribusikan
-- Beberapa proses yang membantu mendapatkan jaminan informasi:
-  1. Membangun kebijakan lokal, proses, dan panduan
-  2. Mendesain jaringan dan strategi user authentication
-  3. Mengidentifikasi kelemahan jaringan dan ancaman
-  4. Mengidentifikasi masalah dan sumber daya yang dibutuhkan
-  5. Membuat rencana untuk Mengidentifikasi sumber daya
-  6. Menyetujui jaminan informasi yang sesuai kontrol
-  7. Melakukan sertifikasi dan akreditasi
-  8. Menyediakan latihan jaminan informasi(IA)
+- Apa itu Information Assurance (IA)?
+- Apa itu strategi keamanan berkelanjutan (Continual Security)?
+- Apa itu Defense in Depth?
+- Apa itu Risiko dan Manajemen Risiko?
+- Apa saja fase dalam Manajemen Risiko?
 
-## Continual/Adaptive Security Strategy
+---
 
-- Organisasi seharusnya mengadposi strategi keamanan yang adaptif, dimana melibatkan 4 pendekatan keamanan
-- 4 Aktivitas ini saling terkait:
-  1. Protect: strategi pertahanan secara mendalam, melindungi endpoint, network, data
-  2. Detect: Menilai kelemahan jaringan, monitoring dengan packet sniffing tools dan network monitoring
-  3. Respond: Mengidentifikasi insiden, mencari dalang dari penyebanya, dan melakukan investigasi
-  4. Predict: Mengidentifikasi kemungkinan serangan, target dan metode
+## Notes
 
-## Defense in Depth
+### Information Assurance (IA)
 
-![[ceh3.png]]
+- Merujuk pada jaminan integritas, ketersediaan, kerahasiaan, dan autentikasi informasi selama siklus hidupnya (penggunaan, proses, distribusi).
+- Proses untuk mencapainya meliputi:
+  - Membangun kebijakan dan panduan.
+  - Mendesain strategi otentikasi.
+  - Mengidentifikasi kelemahan dan ancaman.
+  - Membuat rencana mitigasi.
+  - Melakukan sertifikasi dan akreditasi.
 
-- Defense in Depth adalah strategi dimana beberapa lapisan keamanan ditempatakn diseluruh sistem informasi
-- Mencegah serangan secara langsung, karenan harus menjebol satu persatu lapisan
+### Continual/Adaptive Security Strategy
 
-## Apa itu Risiko?
+- Strategi keamanan yang dinamis dengan 4 pendekatan yang saling terkait:
+  1.  **Protect**: Pertahanan mendalam untuk melindungi endpoint, jaringan, dan data.
+  2.  **Detect**: Menilai kelemahan dan memonitor aktivitas jaringan.
+  3.  **Respond**: Mengidentifikasi insiden, melakukan investigasi, dan menanggulanginya.
+  4.  **Predict**: Mengidentifikasi kemungkinan serangan, target, dan metode di masa depan.
 
-- Merujuk pada ekspektasi bahwa kejadian buruk akan menyebabkan kerusakan sistem
-- Dikategorikan berdasarkan level terhadap dampak kerusakan ke sistem
-- Matriks risiko dibuat untuk menilai kemungkinan dan konsekuensi dari dampak suatu kejadian
-- Risiko adalah gabungan dari kemungkinan dan konsekuensi dari dampak
-  | Risiko = Ancaman x Kelemahan x Dampak |
+### Defense in Depth
 
-## Level Risiko
+- Strategi keamanan berlapis di seluruh sistem informasi.
+- Tujuannya adalah untuk mencegah serangan langsung dengan mengharuskan penyerang menembus beberapa lapisan pertahanan secara berurutan.
 
-- Penilaian berdasarkan dampak yang terjadi di network
-- Dibedakan berdasarkan frekuensi dan tingkat keparahan
-- Formula perhitungan
-  `Level Resiko = Konsekuensi x Kemungkinan`
-- Dikategorikan menjadi 4 level: `extreme`, `high`, `medium`, `low`
+### Risiko
 
-| Risk Level      | Consequence                       | Action                                                                                                                                              |
-| --------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Extreme or High | Serius atau bahaya segera terjadi | - Tindakan pengendalian diperlukan untuk mengurangi resiko<br>- Identifikasi dan paksakan kendali untuk mengurangi ke level rendah yang wajar       |
-| Medium          | Bahaya Sedang                     | - Aksi segera tidak begitu diperlukan, tapi harus diimplementasikan secepatnya<br>- Implementasikan kendali secepat mungkin untuk mengurangi resiko |
-| Low             | Bahaya yang dapat diabaikan       | Ambil langkah pencegahan untuk mengurangi dampak resiko                                                                                             |
+- Ekspektasi bahwa kejadian buruk akan menyebabkan kerusakan pada sistem.
+- **Formula Risiko**: `Risiko = Ancaman x Kelemahan x Dampak`
+- **Level Risiko**: Dinilai berdasarkan frekuensi dan tingkat keparahan, dikategorikan menjadi `extreme`, `high`, `medium`, dan `low`.
+- **Matriks Risiko**: Alat visual untuk menilai probabilitas dan konsekuensi risiko, membantu dalam pengambilan keputusan.
 
-## Matriks Risiko
+### Manajemen Risiko
 
-- Memberikan skala pada resiko yang terjadi atau probabilitas kemungkinan, bersama dengan konsekuensi dan dampaknya
-- Merupakan salah satu proses termudah dalam mengingkatkan visibilitas resiko
-- Dibedakan menjadi beberapa level
-- Banyak standar matriks resiko, sebuah organisasi harus membuatnya sendiri berdasarkan bisnis yang dibutuhkan
+- Proses mengurangi dan mempertahankan risiko pada level yang dapat diterima oleh organisasi.
+- **Tujuan**: Mengidentifikasi, menganalisis, memprioritaskan, dan memitigasi risiko.
 
-  ![[ceh4.png]]
+#### Fase Manajemen Risiko
 
-## Manajemen Risiko
+1.  **Risk Identification**: Mengidentifikasi sumber, penyebab, dan konsekuensi risiko internal maupun eksternal.
+2.  **Risk Assessment**: Menilai dan mengestimasi kemungkinan serta dampak dari risiko yang teridentifikasi.
+3.  **Risk Treatment**: Memilih dan mengimplementasikan pengendalian untuk memodifikasi risiko.
+4.  **Risk Tracking and Review**: Memantau efektivitas strategi manajemen risiko dan memastikan pengendalian berjalan sesuai rencana.
 
-- Proses dari mengurangi dan mempertahankan resiko pada level yang dapat diterima
-- Hal ini memiliki posisi yang penting dalam siklus hidup keamanan dan meningkatkan proses
-- Tipe resiko berbeda disetiap organisasi, tetapi tindakan untuk mempersiapkan manajemen resiko adalah hal yang umum disetiap organisasi
+---
 
-### Tujuan Manajemen Risiko
+## Summary
 
-- Mengidentifikasi potensi risiko
-- Mengidentifikasi dampak dari risiko dan membuat rencana
-- Memprioritaskan resiko berdasarkan dampak yang dihasilkan
-- Memahami dan menganalisis resiko lalu melaporkan risiko kejadian
-- Mengatur risiko dan mitigasi dampaknya
-- Membuat kesadaran terhadap staff keamanan dan membangun strategi dan rencana risiko manajemen final
-
-### 4 Fase Manajemen Risiko
-
-#### 1. Risk Identification
-
-- Langkah awal dalam rencana manajemen risiko
-- Identifikasi sumber, penyebab, konsekuensi dari internal maupun eksternal risiko
-- Berdasarkan kemampuan seseorang, dan berbeda antara organisasi yang satu dan yang lain
-
-#### 2. Risk Assessment
-
-- Menilai risiko organisasi dan mengestimasi kemungkinan dan dampak dari risiko tersebut
-- Program yang dilakukan secara berulang, yang membantu menentukan kuantitatif dan kualitatif nilai risiko
-- Dilakukan ketika mengidentifikasi bahaya tetapi belum bisa mengatur secepatnya, diikuti dengan pembaruan rutin informasinya
-
-#### 3. Risk Treatment
-
-- Proses seleksi dan implementasi pengendalian dari risiko yang teridentifikasi, untuk memodifikasinya
-- Keputusan diambil dari hasil risk assessment
-- Tujuan tahap ini adalah untuk mengidentifikasi perawatan untuk risiko yang ada
-- Mengidentifikasi urutan berdasarkan tingkat prioritas yang akan ditangani, dipantau, dan direview
-- Beberapa informasi diperlukan sebelum melakukan Risk Treatment:
-  - Metode perawatan yang sesuai
-  - Orang yang bertanggung jawab melakukan perawatan
-  - Biaya yang terlibat
-  - Manfaat dari treatment
-  - Kemungkinan sukses
-  - Cara untuk mengukur dan menilai perawatan
-
-#### 4. Risk Tracking and Review
-
-- Untuk memastikan efektifitas identifikasi dan penilaian dari risiko sebaik mungkin
-- Memastikan bahwa penilaianya sesuai
-- Mengevaluasi performa dari strategi risiko manajemen yang diterapkan
-- Memastikan pengendalian sudah sesuai di organisasi, semua prosedur dipahami dan diikuti
+Information Security Controls adalah serangkaian tindakan untuk melindungi aset informasi. **Information Assurance (IA)** menjamin kerahasiaan, integritas, dan ketersediaan data, sementara strategi keamanan modern seperti **Continual/Adaptive Security** dan **Defense in Depth** menyediakan kerangka kerja proaktif dan berlapis untuk perlindungan. **Manajemen Risiko** adalah proses inti yang melibatkan identifikasi, penilaian, penanganan, serta pemantauan risiko untuk memastikan dampaknya tetap pada level yang dapat diterima oleh organisasi.

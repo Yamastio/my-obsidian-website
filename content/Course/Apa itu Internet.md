@@ -10,7 +10,9 @@ description: Penjelasan lengkap mengenai konsep Internet.
 draft: false
 title: Apa itu Internet
 ---
+
 ---
+
 Related: [[index|Home]], [[tryhackme]], [[cybersecurity]]
 
 ---
@@ -28,26 +30,26 @@ Related: [[index|Home]], [[tryhackme]], [[cybersecurity]]
 
 ### Apa itu Internet
 
-* Internet adalah jaringan super besar yang terbentuk dari banyak jaringan kecil yang saling terhubung.
-* Analogi: banyak kelompok teman yang diperkenalkan satu sama lain hingga membentuk jaringan besar.
+- Internet adalah jaringan super besar yang terbentuk dari banyak jaringan kecil yang saling terhubung.
+- Analogi: banyak kelompok teman yang diperkenalkan satu sama lain hingga membentuk jaringan besar.
 
 ### Sejarah Internet
 
-* Awal mula dari ARPANET pada akhir 1960-an, proyek Departemen Pertahanan AS.
-* Tahun 1989, Tim Berners-Lee menciptakan World Wide Web.
-* WWW mengubah internet menjadi media berbagi informasi seperti saat ini.
+- Awal mula dari ARPANET pada akhir 1960-an, proyek Departemen Pertahanan AS.
+- Tahun 1989, Tim Berners-Lee menciptakan World Wide Web.
+- WWW mengubah internet menjadi media berbagi informasi seperti saat ini.
 
 ### Internet sebagai gabungan jaringan
 
-* Internet bukan satu benda tunggal.
-* Internet adalah jaringan publik yang menghubungkan berbagai private network.
-* Analogi: rumah/kantor = jaringan pribadi, jalan raya = jaringan publik.
+- Internet bukan satu benda tunggal.
+- Internet adalah jaringan publik yang menghubungkan berbagai private network.
+- Analogi: rumah/kantor = jaringan pribadi, jalan raya = jaringan publik.
 
 ### Identitas perangkat di jaringan
 
-* Semua perangkat membutuhkan identitas untuk saling mengenali.
-* Identitas ini biasanya berupa IP address.
-* Detail terkait akan dibahas pada bagian berikutnya.
+- Semua perangkat membutuhkan identitas untuk saling mengenali.
+- Identitas ini biasanya berupa IP address.
+- Detail terkait akan dibahas pada bagian berikutnya.
 
 ---
 

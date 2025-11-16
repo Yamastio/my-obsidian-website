@@ -6,6 +6,10 @@ tags:
   - filosofi
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

@@ -9,17 +9,20 @@ description: Ringkasan konsep dasar mengenai LAN.
 draft: false
 title: Apa itu OOP
 ---
+
 ---
+
 Related: [[index|Home]], [[php]], [[oop]]
 
 ---
+
 ## Cue
 
-* Apa itu OOP
-* Kenapa memakai OOP
-* Konsep inti OOP
-* Fitur OOP di PHP
-* Inti sederhana OOP
+- Apa itu OOP
+- Kenapa memakai OOP
+- Konsep inti OOP
+- Fitur OOP di PHP
+- Inti sederhana OOP
 
 ---
 
@@ -27,43 +30,43 @@ Related: [[index|Home]], [[php]], [[oop]]
 
 ### Apa itu OOP
 
-* OOP adalah cara menulis program dengan membuat objek.
-* Objek = gabungan data (properties) dan aksi (methods).
-* Contoh:
+- OOP adalah cara menulis program dengan membuat objek.
+- Objek = gabungan data (properties) dan aksi (methods).
+- Contoh:
+  - Siswa: nama, kelas → properties.
+  - Siswa: belajar(), ujian() → methods.
 
-  * Siswa: nama, kelas → properties.
-  * Siswa: belajar(), ujian() → methods.
-* Objek diperlakukan seperti “benda” dalam dunia kecil program.
+- Objek diperlakukan seperti “benda” dalam dunia kecil program.
 
 ### Kenapa memakai OOP
 
-* Berguna saat program besar dan kompleks.
-* Memecah program menjadi bagian kecil berupa objek.
-* Mengurangi kekacauan ketika fitur banyak.
-* Memudahkan kolaborasi tim dan perawatan kode.
-* Mendukung reuse code.
-* Membuat struktur seperti “kota kecil” berisi objek yang bekerja sama.
+- Berguna saat program besar dan kompleks.
+- Memecah program menjadi bagian kecil berupa objek.
+- Mengurangi kekacauan ketika fitur banyak.
+- Memudahkan kolaborasi tim dan perawatan kode.
+- Mendukung reuse code.
+- Membuat struktur seperti “kota kecil” berisi objek yang bekerja sama.
 
 ### Konsep inti OOP
 
-* Object: benda dalam program yang punya properties dan methods.
-* Properties: data milik objek (nama, kelas, tinggi, lebar).
-* Methods: aksi yang dilakukan objek (belajar(), add_to_cart()).
+- Object: benda dalam program yang punya properties dan methods.
+- Properties: data milik objek (nama, kelas, tinggi, lebar).
+- Methods: aksi yang dilakukan objek (belajar(), add_to_cart()).
 
 ### Fitur OOP di PHP
 
-* class: blueprint untuk membuat objek.
-* object: hasil dari class.
-* constructor: inisialisasi objek.
-* encapsulation: membatasi akses data.
-* inheritance: class anak mewarisi sifat class parent.
-* polymorphism: method sama dengan perilaku berbeda.
-* abstract & interface: cetak biru dasar untuk class lain.
+- class: blueprint untuk membuat objek.
+- object: hasil dari class.
+- constructor: inisialisasi objek.
+- encapsulation: membatasi akses data.
+- inheritance: class anak mewarisi sifat class parent.
+- polymorphism: method sama dengan perilaku berbeda.
+- abstract & interface: cetak biru dasar untuk class lain.
 
 ### Inti paling sederhana
 
-* OOP membuat program seperti dunia nyata: benda dengan data dan aksi.
-* Membuat kode rapi, mudah diatur, dan dapat dipakai ulang.
+- OOP membuat program seperti dunia nyata: benda dengan data dan aksi.
+- Membuat kode rapi, mudah diatur, dan dapat dipakai ulang.
 
 ---
 

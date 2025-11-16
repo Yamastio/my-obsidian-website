@@ -6,7 +6,11 @@ tags:
   - blockchain
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi
 

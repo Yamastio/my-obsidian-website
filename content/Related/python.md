@@ -6,6 +6,12 @@ tags:
   - python
 ---
 
+---
+
 Related: [[index|Home]]
 
+---
+
 ## Daftar isi
+
+1. [[Dirsearch]]

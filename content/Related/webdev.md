@@ -6,6 +6,10 @@ tags:
   - webdev
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

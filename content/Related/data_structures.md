@@ -6,6 +6,10 @@ tags:
   - data_structures
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

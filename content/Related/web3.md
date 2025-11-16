@@ -6,7 +6,11 @@ tags:
   - web3
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar Isi
 

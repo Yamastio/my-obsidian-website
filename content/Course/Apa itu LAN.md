@@ -9,18 +9,20 @@ description: Ringkasan konsep dasar mengenai LAN.
 draft: false
 title: Apa itu LAN
 ---
+
 ---
+
 Related: [[index|Home]], [[tryhackme]], [[cybersecurity]]
 
 ---
 
 ## Cue
 
-* Apa itu LAN
-* Inti konsep LAN
-* Peralatan LAN
-* Tipe-tipe LAN
-* Inti sederhana LAN
+- Apa itu LAN
+- Inti konsep LAN
+- Peralatan LAN
+- Tipe-tipe LAN
+- Inti sederhana LAN
 
 ---
 
@@ -28,30 +30,30 @@ Related: [[index|Home]], [[tryhackme]], [[cybersecurity]]
 
 ### Apa itu LAN
 
-* LAN adalah lingkungan kecil tempat perangkat seperti laptop, printer, dan HP bisa saling terhubung dan bertukar data tanpa perlu kabel USB.
-* Biasanya berada dalam area terbatas seperti rumah, kantor, atau satu lantai.
+- LAN adalah lingkungan kecil tempat perangkat seperti laptop, printer, dan HP bisa saling terhubung dan bertukar data tanpa perlu kabel USB.
+- Biasanya berada dalam area terbatas seperti rumah, kantor, atau satu lantai.
 
 ### Inti konsep LAN
 
-* **LAN** = jaringan kecil di area kecil.
-* **Tujuan utama**: berbagi file, printer, dan koneksi internet dengan mudah.
-* Kecepatannya tinggi karena jarak antar perangkat pendek dan memakai kabel/Wi-Fi lokal.
+- **LAN** = jaringan kecil di area kecil.
+- **Tujuan utama**: berbagi file, printer, dan koneksi internet dengan mudah.
+- Kecepatannya tinggi karena jarak antar perangkat pendek dan memakai kabel/Wi-Fi lokal.
 
 ### Peralatan LAN
 
-* **Router**: gerbang keluar masuk dari/ke internet.
-* **Switch**: menghubungkan perangkat di dalam jaringan.
-* **Access Point**: menyediakan Wi-Fi.
-* **Perangkat pengguna**: laptop, printer, HP, dan lainnya.
+- **Router**: gerbang keluar masuk dari/ke internet.
+- **Switch**: menghubungkan perangkat di dalam jaringan.
+- **Access Point**: menyediakan Wi-Fi.
+- **Perangkat pengguna**: laptop, printer, HP, dan lainnya.
 
 ### Tipe-tipe LAN
 
-* **Wired LAN**: menggunakan kabel, stabil, dan cepat.
-* **Wireless LAN**: menggunakan Wi-Fi, fleksibel.
+- **Wired LAN**: menggunakan kabel, stabil, dan cepat.
+- **Wireless LAN**: menggunakan Wi-Fi, fleksibel.
 
 ### Inti sederhana LAN
 
-* LAN adalah komunitas kecil untuk perangkat agar bisa berkomunikasi dan berbagi sumber daya dalam area terbatas.
+- LAN adalah komunitas kecil untuk perangkat agar bisa berkomunikasi dan berbagi sumber daya dalam area terbatas.
 
 ---
 

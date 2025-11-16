@@ -6,6 +6,10 @@ tags:
   - cryptography
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

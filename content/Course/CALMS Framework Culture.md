@@ -5,47 +5,39 @@ tags:
   - programming
   - devops
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[devops]], [[programming]]
 
-Transformasi ke DevOps membawa perubahan kultur yang mendasar, menekankan pada transparansi dan kolaborasi untuk mencapai tujuan bersama. Berikut adalah poin penting mengenai **Culture** dalam CALMS Framework:
+---
+
+## Cue
+
+- Apa peran kultur dalam DevOps
+- Mengapa DevOps fokus pada orang
+- Bagaimana membangun lingkungan kolaboratif
+- Mengapa feedback pengguna penting
+- Bagaimana keamanan disertakan dalam setiap fase
+- Praktik keamanan apa yang perlu diterapkan
 
 ---
 
-### 1. Pentingnya Kultur dalam DevOps
+## Notes
 
-- **Fokus pada Orang**: Kultur DevOps lebih menekankan pada orang daripada praktik atau alat. Semua tools dan praktik akan efektif jika orang-orang di tim bekerja sama.
-- **Progres Bertahap**: Transformasi ke DevOps adalah perubahan kultur. Fokus pada kemajuan bertahap daripada kesempurnaan segera.
-
----
-
-### 2. Membangun Lingkungan Kolaboratif
-
-- **Kolaborasi Developer & IT Operations**: Developer dan IT Operations perlu bekerja sama, berbagi pengetahuan, dan memahami kebutuhan masing-masing.
-- **Saling Mendukung**: Kolaborasi dapat meningkatkan produktivitas dan keandalan. Developer harus mempertimbangkan keamanan dan kestabilan infrastruktur, sementara IT Operations harus mendukung kebutuhan Developer.
-- **Membangun Tools Bersama**: Contohnya, DevOps Pipeline (CI/CD Pipeline) untuk mempermudah proses.
+- Kultur DevOps adalah perubahan mendasar yang menekankan transparansi, kolaborasi, dan komunikasi antar semua peran dalam tim. Fokus kultur lebih pada manusia daripada alat, karena tools hanya efektif jika tim bekerja selaras.
+- Transformasi DevOps dilakukan secara bertahap, bukan perubahan instan. Kemajuan kecil dan berkelanjutan lebih penting daripada kesempurnaan awal.
+- Lingkungan kolaboratif dibangun melalui kerja sama antara developer dan IT operations. Keduanya perlu saling memahami kebutuhan: developer memperhatikan keamanan dan stabilitas infrastruktur, sementara operations mendukung kebutuhan pengembangan.
+- Pembuatan tools bersama seperti pipeline CI/CD mendukung alur kerja tim dan meningkatkan kecepatan serta konsistensi.
+- Fokus pada kebutuhan pengguna dijaga melalui feedback loop yang terus-menerus. Pembaruan dapat dipercepat dengan automasi dan proses yang disederhanakan sehingga kepuasan pengguna tetap terjaga.
+- Keamanan harus diintegrasikan sejak awal proses. Edukasi tim diperlukan agar keamanan menjadi bagian dari coding, deployment, hingga operasional.
+- Praktik keamanan yang dijalankan mencakup security testing untuk mendeteksi access key di source code, manajemen port untuk mencegah port terbuka tanpa sengaja, penyusunan abuse case untuk menemukan potensi kerentanan, serta membangun keamanan API agar komunikasi tetap aman.
 
 ---
 
-### 3. Fokus pada Kebutuhan Pengguna
+## Summary
 
-- **Feedback Loop**: Terus terhubung dengan pengguna untuk memenuhi kebutuhan pasar.
-- **Automasi & Proses Sederhana**: Mempercepat pembaruan aplikasi untuk menjaga kepuasan pelanggan.
-
----
-
-### 4. Menyertakan Keamanan di Setiap Fase
-
-- **Keamanan Sejak Awal**: Edukasi tim tentang pentingnya keamanan dalam coding dan operasional.
-- **Praktik Keamanan**:
-    - **Security Testing**: Memeriksa access key di source code.
-    - **Port Management**: Menghindari port aplikasi yang terbuka tanpa sengaja.
-    - **Abuse Case**: Mengidentifikasi kerentanan aplikasi.
-    - **API Security**: Membangun komunikasi API yang aman.
-
----
-
-**Kesimpulan:** Fokus utama dalam **Culture** adalah memastikan kolaborasi efektif, memperhatikan kebutuhan pengguna, dan mengintegrasikan keamanan di setiap fase untuk mengadopsi DevOps dengan sukses.
+Kultur dalam DevOps berfokus pada manusia dan kolaborasi untuk mencapai tujuan bersama. Kolaborasi lintas tim, pemenuhan kebutuhan pengguna, dan integrasi keamanan sejak awal menjadi fondasi transformasi DevOps yang efektif. Pendekatan bertahap dan proses yang sederhana mendukung adopsi DevOps secara berkelanjutan.

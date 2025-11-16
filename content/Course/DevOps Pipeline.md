@@ -5,60 +5,64 @@ tags:
   - devops
   - programming
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[devops]], [[programming]]
 
-DevOps Pipeline, atau CI/CD Pipeline, adalah serangkaian proses dan alat otomatis yang memungkinkan kolaborasi antara tim Developer dan IT Operations. Ini bertujuan untuk meningkatkan kecepatan dan efisiensi dalam proses deployment.
+---
+
+## Cue
+
+- Tujuan devops pipeline
+- Kaitan devops pipeline dengan calms
+- Fase fase utama dalam devops pipeline
+- Cara menangani kegagalan di pipeline
+- Perbedaan ci, continuous delivery, dan continuous deployment
 
 ---
 
-## 1. Tujuan DevOps Pipeline
+## Notes
 
-- **Mengintegrasikan Tim**: Memfasilitasi kerja sama antara Developer dan IT Operations.
-- **Merampingkan Alur Deployment**: Mengurangi frekuensi dan dampak insiden.
-- **Meningkatkan Fleksibilitas**: Memungkinkan perusahaan untuk merespons perubahan dengan cepat.
+### Tujuan DevOps Pipeline
 
----
+- Meningkatkan integrasi antara developer dan it operations.
+- Merampingkan proses deployment agar lebih cepat dan efektif.
+- Memberikan fleksibilitas sehingga perusahaan dapat merespons perubahan dengan cepat.
 
-## 2. Kaitan dengan CALMS Framework
+### Kaitan dengan CALMS
 
-- **Culture**: Mendorong kolaborasi dan keamanan di setiap fase.
-- **Automation**: Mengotomatiskan proses untuk mempercepat pengiriman fitur.
-- **Lean**: Menyederhanakan proses untuk meningkatkan kecepatan deployment.
-- **Measurement**: Memantau aplikasi dan infrastruktur untuk memastikan performa.
-- **Sharing**: Mewujudkan tanggung jawab bersama antara tim.
+- Culture: mendorong kolaborasi dan keamanan.
+- Automation: mempercepat pengiriman fitur dengan proses otomatis.
+- Lean: menyederhanakan alur kerja agar lebih efisien.
+- Measurement: memantau performa aplikasi dan infrastruktur.
+- Sharing: membangun tanggung jawab bersama dalam setiap fase pipeline.
 
----
+### Fase DevOps Pipeline
 
-## 3. Fase dalam DevOps Pipeline
+1. Code: penulisan dan pengunggahan kode ke repository.
+2. Build: kompilasi kode dan pembuatan artifact.
+3. Test: pengujian fungsional dan non fungsional.
+4. Release: pengemasan artifact dengan versi.
+5. Deploy: pengiriman artifact ke lingkungan target.
+6. Monitor: pemantauan aplikasi di production untuk menemukan masalah.
 
-1. **Code**: Developer menulis dan mengunggah kode ke repository (misalnya, Git).
-2. **Build**: Kode di-compile dan divalidasi untuk membuat artifact.
-3. **Test**: Artifact diuji untuk memenuhi kriteria fungsional dan non-fungsional.
-4. **Release**: Artifact dikemas dengan nomor versi untuk siap di-deploy.
-5. **Deploy**: Artifact di-deploy ke lingkungan target (test, staging, production).
-6. **Monitor**: Aplikasi dipantau di lingkungan production untuk mendeteksi kesalahan.
+### Menangani Kegagalan
 
----
+- Pipeline otomatis berhenti ketika terjadi error.
+- Developer harus memperbaiki masalah sebelum pipeline dapat dilanjutkan.
 
-## 4. Menangani Kegagalan
+### Istilah Terkait
 
-- Jika terjadi kegagalan di salah satu tahapan, proses dihentikan.
-- Developer harus memperbaiki kode sebelum melanjutkan ke fase berikutnya.
-
----
-
-## Istilah Terkait CI/CD
-
-- **Continuous Integration (CI)**: Praktik di mana Developer secara rutin menggabungkan perubahan kode ke repository pusat, diikuti dengan build dan pengujian otomatis.
-- **Continuous Delivery (CD)**: Memastikan kode siap untuk di-deploy ke production, dengan persetujuan manual sebelum deployment.
-- **Continuous Deployment**: Proses otomatis yang mendepoy perubahan ke production tanpa persetujuan manual.
+- Continuous Integration: penggabungan rutin kode ke repository pusat disertai build dan testing otomatis.
+- Continuous Delivery: memastikan kode selalu siap di deploy dengan persetujuan manual.
+- Continuous Deployment: perubahan otomatis langsung didorong ke production tanpa persetujuan manual.
 
 ---
 
-### **Kesimpulan**
+## Summary
 
-DevOps Pipeline adalah alat penting dalam menyatukan Developer dan IT Operations, memastikan kualitas kode, keamanan, dan kecepatan dalam proses deployment. Implementasi yang efektif dapat meningkatkan responsivitas perusahaan terhadap kebutuhan pengguna dan perubahan pasar.
+Devops pipeline adalah rangkaian proses otomatis yang menyatukan developer dan it operations untuk menghasilkan deployment yang cepat, aman, dan berkualitas. Dengan struktur fase code hingga monitor, serta dukungan prinsip calms, pipeline membantu perusahaan merespons kebutuhan pengguna secara efisien dan konsisten.

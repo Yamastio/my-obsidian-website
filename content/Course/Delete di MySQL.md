@@ -6,49 +6,49 @@ tags:
   - databases
   - sql
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[mysql]], [[databases]], [[sql]]
 
-## DELETE di SQL
+---
 
-`DELETE` digunakan untuk menghapus baris dari sebuah tabel. Hati-hati karena operasi ini **tidak bisa dibatalkan** kecuali menggunakan transaksi (`BEGIN…ROLLBACK/COMMIT`).
+## Cue
+
+- Penggunaan delete di sql
+- Delete dengan kondisi
+- Delete tanpa kondisi
+- Perbedaan delete dan truncate
+- Praktik aman saat menghapus data
 
 ---
 
-### 1. DELETE dengan Kondisi
+## Notes
 
-```sql
-DELETE FROM customers
-WHERE id = 3;
-```
+### Delete dengan Kondisi
 
-* Menghapus **hanya baris yang memenuhi kondisi** (`id = 3`).
-* Selalu gunakan **WHERE** untuk membatasi baris yang dihapus.
-* Contoh aman untuk menghapus satu pelanggan tertentu.
+- Menghapus baris yang memenuhi syarat tertentu.
+- Penggunaan where sangat penting agar hanya baris yang dituju yang terhapus.
+- Contoh: menghapus pelanggan dengan id tertentu.
 
----
+### Delete tanpa Kondisi
 
-### 2. DELETE tanpa Kondisi
+- Menghapus seluruh baris dalam tabel.
+- Memiliki efek yang sama seperti truncate namun berbeda secara teknis.
+- Delete dapat memicu trigger dan mendukung transaksi.
+- Truncate lebih cepat tetapi umumnya tidak dapat di rollback.
 
-```sql
-DELETE FROM customers;
-```
+### Praktik Aman
 
-* Menghapus **semua baris** dalam tabel `customers`.
-* Sama efeknya dengan **truncate** tapi berbeda secara teknis:
-
-  * `DELETE` dapat memicu trigger dan bisa digabung dengan transaksi.
-  * `TRUNCATE` lebih cepat, tetapi tidak bisa di-rollback di sebagian besar RDBMS.
+- Selalu gunakan where saat menghapus baris spesifik.
+- Hindari delete tanpa where jika tidak benar benar diperlukan.
+- Gunakan transaksi untuk mengurangi risiko kehilangan data saat proses uji coba.
 
 ---
 
-### Kesimpulan
+## Summary
 
-* **Selalu pakai `WHERE`** saat ingin menghapus baris spesifik.
-* Tanpa `WHERE`, seluruh tabel akan kosong, berisiko kehilangan data.
-* Gunakan transaksi (`BEGIN; … COMMIT;`) jika ingin aman saat testing.
-
----
+Delete digunakan untuk menghapus baris dari tabel dan harus digunakan dengan hati hati. Perintah dengan where hanya menghapus baris tertentu, sedangkan tanpa where akan mengosongkan tabel. Penggunaan transaksi sangat dianjurkan untuk mencegah kehilangan data yang tidak diinginkan.

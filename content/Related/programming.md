@@ -6,7 +6,11 @@ tags:
   - programming
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi
 

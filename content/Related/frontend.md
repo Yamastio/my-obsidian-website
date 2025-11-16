@@ -6,6 +6,10 @@ tags:
   - frontend
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

@@ -6,7 +6,11 @@ tags:
   - oop
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi
 

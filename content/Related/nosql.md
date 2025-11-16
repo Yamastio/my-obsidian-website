@@ -6,6 +6,10 @@ tags:
   - nosql
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

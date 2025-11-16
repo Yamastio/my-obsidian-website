@@ -8,89 +8,39 @@ comments: true
 draft: false
 ---
 
+---
+
 Related: [[index|Home]], [[cybersecurity]], [[web_security]]
 
-## Burp Suite 
+---
 
-Bayangkan kamu ingin melihat, mengubah, dan mempelajari semua percakapan antara **browser** dan **server web**. Biasanya percakapan itu berjalan cepat dan tersembunyi. Burp Suite adalah **alat yang duduk di tengah**—seperti operator telepon—yang bisa membaca, menahan, bahkan memodifikasi pesan yang dikirimkan.
+## Cue
 
-Itulah inti Burp Suite: **proxy intercepting**. Kamu memaksakan browser untuk berbicara lewat Burp dulu, baru ke server. Maka setiap request dan response lewat tanganmu.
+- Apa itu Burp Suite
+- Bagaimana cara kerja proxy intercepting
+- Bagaimana alur Browser → Burp → Server
+- Cara instalasi dan konfigurasi dasar
+- Fungsi Proxy, Repeater, Intruder
+- Kegunaan Target, Logger, Extension
+- Kapan Burp dipakai dalam pentesting
 
 ---
 
-## Cara Kerja Burp (Gambaran Intuitif)
+## Notes
 
-1. Browser → (Proxy: Burp) → Server
-2. Burp menangkap pesan → kamu bisa membaca atau mengedit
-3. Burp meneruskan ke server → server membalas → Burp memberi ke browser
-
-Dengan cara ini, kamu bisa melihat seluruh “isi perut” aplikasi web.
-
----
-
-## Instalasi & Konfigurasi (Inti)
-
-* Unduh Burp → instal Community Edition.
-* Atur Firefox agar memakai proxy `127.0.0.1:8080`.
-* Burp juga harus membuka port yang sama sebagai listener.
-* Instal sertifikat CA Burp agar HTTPS tidak error.
-
-Setelah itu, semua traffic browser mengalir melalui Burp.
+- Burp Suite adalah alat proxy intercepting yang memeriksa, menahan, dan memodifikasi percakapan antara browser dan server. Browser dipaksa melewati Burp sehingga setiap request dan response dapat dibaca atau diedit.
+- Cara kerja intuitif: Browser mengirim request → Burp menangkap dan menampilkan → setelah diubah/ditinjau, Burp meneruskan ke server → server membalas → Burp mengembalikan ke browser. Ini membuat seluruh komunikasi web terlihat jelas.
+- Instalasi dan konfigurasi inti: unduh Burp Community, atur browser (misalnya Firefox) memakai proxy 127.0.0.1:8080, aktifkan proxy listener di Burp pada port yang sama, dan pasang sertifikat CA Burp agar HTTPS berjalan tanpa error. Semua traffic browser akan mengalir melalui Burp.
+- Fitur Proxy: tempat semua request lewat dan bisa diintersep atau dimodifikasi.
+- Fitur Repeater: ruang eksperimen untuk mengambil satu request dan mengirim ulang berkali-kali sambil mengubah parameter; digunakan untuk eksploitasi manual seperti SQLi, auth bypass, dan parameter tampering.
+- Fitur Intruder: mesin otomatis untuk brute-force, fuzzing, atau pengujian rate-limit dalam jumlah besar.
+- Fitur Target: peta aplikasi yang menampilkan struktur endpoint dan request yang pernah dikirim.
+- Fitur Logger: catatan lengkap seluruh traffic yang sudah lewat untuk analisis ulang.
+- Extensions/BApp Store: menambah kemampuan seperti decoding, scanning, dan automasi lanjutan.
+- Penggunaan dalam pentesting: mengubah request, menguji input user (SQLi, XSS, traversal), brute-force login atau OTP, menemukan endpoint tersembunyi, dan memeriksa mekanisme autentikasi serta sesi.
 
 ---
 
-## Fitur-Fitur Burp (Penjelasan Sederhana)
+## Summary
 
-### 1. Proxy
-
-- “Terminal penyadap.”
-- Tempat semua permintaan lewat dan bisa kamu ubah sebelum dikirim.
-
-### 2. Repeater
-
-- Laboratorium eksperimen.
-- Ambil satu request lalu kirim ulang berkali-kali sambil mengubah parameternya.
-- Dipakai untuk eksploitasi manual (SQLi, auth bypass, parameter tampering).
-
-### 3. Intruder
-
-- “Mesin otomatis penyerang.”
-- Melakukan brute force, fuzzing, testing rate-limit — semua secara massal.
-
-### 4. Target
-
-- Peta aplikasi.
-- Kamu dapat melihat halaman apa saja yang ada dan request apa yang pernah dikirim.
-
-### 5. Logger
-
-- Catatan lengkap setiap traffic — berguna untuk analisis ulang.
-
-### 6. Extensions (BApp Store)
-
-- Tambahan fitur untuk decode, scan, automasi, dan analisis lanjutan.
-
----
-
-## Kapan Burp Dipakai dalam Pentesting?
-
-* Mengubah request sebelum terkirim
-* Mengetes input user (SQLi, XSS, path traversal)
-* Brute force login, API key, OTP
-* Menemukan endpoint tersembunyi
-* Menguji mekanisme autentikasi dan session
-
-Burp membuat **trafik web yang tadinya tidak terlihat menjadi sangat transparan**.
-
----
-
-## Inti Pemahaman
-
-Burp Suite itu bukan sekadar alat; ia adalah **gerbang kontrol penuh** atas komunikasi web aplikasi.
-Dengan mengarahkan traffic browser ke Burp, kamu dapat:
-
-* melihat semuanya,
-* mengubah semuanya,
-* menguji semuanya,
-
-sebelum aplikasi tahu apa yang sedang terjadi.
+Burp Suite adalah alat pengendali penuh komunikasi web dengan cara menangkap dan memodifikasi traffic antara browser dan server. Dengan proxy, repeater, intruder, dan fitur lain, Burp mempermudah analisis, eksploitasi, dan pengujian keamanan aplikasi web.

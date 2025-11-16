@@ -5,103 +5,88 @@ tags:
   - programming
   - devops
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[programming]], [[devops]]
 
-Setelah memahami **DevOps pipeline**, penting untuk menyadari bahwa **praktik DevOps** membutuhkan **tools** untuk memastikan penerapannya lebih **efisien**, **konsisten**, dan **terprediksi**. Tools ini bervariasi, dari yang disediakan oleh **cloud provider** seperti **AWS** hingga tools yang lebih umum. Berikut ini adalah daftar DevOps tools yang sering digunakan berdasarkan kategorinya:
+---
 
-## 1. Komunikasi dan Kolaborasi
+## Cue
 
-**Developer** dan **IT Operations** memerlukan tools yang memfasilitasi **komunikasi** dan **kolaborasi** agar proyek bisa dikerjakan secara kolektif dengan alur kerja yang lebih efisien.
+- Kategori utama devops tools
+- Contoh tools komunikasi, cloud, ide
+- Tools untuk setiap tahap ci/cd
+- Tools monitoring
+- Hubungan devops tools dengan calms
 
-- **Tools Umum**:
-    - Microsoft Teams
-    - Slack
-    - Cisco Webex Teams
-- **AWS**:
-    - Amazon Chime
+---
 
-## 2. Cloud
+## Notes
 
-Penggunaan **cloud computing** memungkinkan perusahaan untuk membuat environment on-demand tanpa harus memelihara server fisik, mendukung kolaborasi yang lebih baik.
+### Komunikasi dan Kolaborasi
 
-- **AWS**: Berbagai layanan seperti **AWS Cloud9** dan **AWS CodeCommit** menyediakan tools DevOps yang siap pakai.
+- Mendukung koordinasi antara developer dan it operations.
+- Tools umum: microsoft teams, slack, cisco webex teams.
+- Tools aws: amazon chime.
 
-## 3. IDE (Integrated Development Environment)
+### Cloud
 
-Tools yang membantu developer menulis, menjalankan, dan men-debug kode. IDE juga memungkinkan kolaborasi langsung antar tim developer.
+- Mendukung environment on-demand tanpa server fisik.
+- Meningkatkan fleksibilitas dan kolaborasi.
+- Tools aws: aws cloud9, aws codecommit.
 
-- **Tools Umum**:
-    - Visual Studio (Live Share)
-    - IntelliJ IDEA (Code With Me)
-- **AWS**:
-    - AWS Cloud9
+### IDE
 
-## 4. CI/CD (Continuous Integration/Continuous Delivery)
+- Membantu penulisan, debugging, dan kolaborasi kode.
+- Tools umum: visual studio (live share), intellij idea (code with me).
+- Tools aws: aws cloud9. ### CI/CD
 
-CI/CD membantu mengintegrasikan, menguji, dan men-deploy kode secara otomatis, membuat siklus pengembangan lebih cepat dan andal.
+#### Code (version control)
 
-- a. **Code (Version Control System)**
-    
-    Menjaga dan mengelola versi kode, riwayat revisi, dan kolaborasi antar-developer.
-    
-    - **Tools Umum**:
-        - GitHub
-        - GitLab
-    - **AWS**:
-        - AWS CodeCommit
-- b. **Build**
-    
-    Tools yang meng-compile kode menjadi produk siap deploy.
-    
-    - **Tools Umum**:
-        - Jenkins
-        - Travis CI
-    - **AWS**:
-        - AWS CodeBuild
-- c. **Testing**
-    
-    Tools yang digunakan untuk melakukan berbagai pengujian sebelum aplikasi dideploy.
-    
-    - **AWS**:
-        - AWS CodeDeploy untuk load testing
-        - Third-party tools (Gremlin, Testable)
-- d. **Release**
-    
-    Tools untuk menyimpan dan membagikan container images atau software packages yang siap dideploy.
-    
-    - **Tools Umum**:
-        - Docker Hub
-        - JFrog Artifactory
-    - **AWS**:
-        - Amazon ECR
-        - AWS CodeArtifact
-- e. **Deploy**
-    
-    Tools untuk men-deploy aplikasi ke production.
-    
-    - **Tools Umum**:
-        - Heroku
-        - Netlify
-    - **AWS**:
-        - AWS CodeDeploy
-        - AWS Elastic Beanstalk
+- Mengelola versi kode dan kolaborasi revisi.
+- Tools umum: github, gitlab.
+- Tools aws: aws codecommit.
 
-## 5. Monitoring
+#### Build
 
-Monitoring tools membantu memastikan aplikasi berjalan sesuai harapan setelah deployment.
+- Mengubah kode menjadi artifact siap deploy.
+- Tools umum: jenkins, travis ci.
+- Tools aws: aws codebuild.
 
-- **Tools Umum**:
-    - Prometheus
-    - Elastic Stack
-    - Dynatrace
-- **AWS**:
-    - AWS X-Ray
-    - Amazon CloudWatch
+#### Testing
 
-### Kesimpulan
+- Pengujian otomatis sebelum aplikasi dideploy.
+- Tools aws: aws codedeploy untuk load testing, third-party seperti gremlin, testable.
 
-DevOps tools sangat membantu untuk mempercepat dan meningkatkan kualitas **pengembangan** dan **deployment** aplikasi. Tools ini relevan dengan **CALMS Framework** yang mencakup **Culture**, **Automation**, **Lean**, **Measurement**, dan **Sharing**.
+#### Release
+
+- Penyimpanan dan distribusi container atau package.
+- Tools umum: docker hub, jfrog artifactory.
+- Tools aws: amazon ecr, aws codeartifact.
+
+#### Deploy
+
+- Pengiriman aplikasi ke production.
+- Tools umum: heroku, netlify.
+- Tools aws: aws codedeploy, aws elastic beanstalk.
+
+### Monitoring
+
+- Memastikan aplikasi berjalan sesuai ekspektasi setelah deployment.
+- Tools umum: prometheus, elastic stack, dynatrace.
+- Tools aws: aws x-ray, amazon cloudwatch.
+
+### Kaitan dengan CALMS
+
+- Tools mendukung culture, automation, lean, measurement, dan sharing.
+- Meningkatkan efisiensi, konsistensi, dan prediktabilitas proses devops.
+
+---
+
+## Summary
+
+Devops tools digunakan untuk mendukung komunikasi, kolaborasi, pengembangan, ci/cd, deployment, dan monitoring. Penggunaan tools yang tepat membantu mempercepat proses, meningkatkan kualitas rilis, dan selaras dengan prinsip calms dalam penerapan devops.

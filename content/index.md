@@ -49,6 +49,7 @@ Gunakan halaman ini sebagai titik awal untuk menjelajahi semua materi yang terse
 - [[recon|Recon]]
 - [[osint|OSINT]]
 - [[networking|Networking]]
+- [[bughunting]]
 
 ### Programming
 

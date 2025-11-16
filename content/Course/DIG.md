@@ -6,26 +6,46 @@ tags:
   - networking
   - pentesting
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[cybersecurity]], [[networking]], [[pentesting]]
 
-## Apa itu dig ?
+---
 
-`Domain Information Groper` adalah utilitas yang digunakan untuk melakukan query DNS. Tool ini lebih fleksibel dibandingkan `nslookup` dan dapat melakukan berbagai query, seperti pencarian tipe A, MX, dan NS.
+## Cue
+
+- Apa itu dig
+- Fungsi utama dig
+- Cara penggunaan di kali linux
+- Contoh penggunaan dalam ethical hacking
+
+---
+
+## Notes
+
+### Definisi
+
+- Dig (Domain Information Groper) adalah tool untuk melakukan query dns.
+- Lebih fleksibel dibanding nslookup.
+- Dapat melakukan query tipe a, mx, ns, dan lainnya.
 
 ### Penggunaan di Kali Linux
 
-Untuk menggunakannya, cukup ketik:
-
-```bash
-dig example.com
-```
+- Sintaks dasar: `dig example.com`
+- Menampilkan informasi dns terkait domain yang dituju.
 
 ### Contoh dalam Ethical Hacking
 
-- **Menetapkan IP Address**: `dig` membantu mencari alamat IP dari domain tertentu.
-- **Menetapkan Nameserver**: Berguna untuk mengetahui server DNS yang digunakan target.
-- **Query MX Record**: Untuk mengetahui konfigurasi email dan server mail domain.
+- Menentukan alamat ip dari domain target.
+- Mengetahui nameserver yang digunakan domain.
+- Query mx record untuk memeriksa konfigurasi email dan server mail.
+
+---
+
+## Summary
+
+Dig adalah utilitas dns powerful yang digunakan untuk memperoleh informasi domain, ip, nameserver, dan konfigurasi email. Dalam konteks ethical hacking, dig membantu analisis target dan pemetaan infrastruktur jaringan.

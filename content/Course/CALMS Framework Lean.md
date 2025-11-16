@@ -5,32 +5,39 @@ tags:
   - programming
   - devops
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[devops]], [[programming]]
 
-**Lean** dalam CALMS Framework berfokus pada menghilangkan inefisiensi dan mengoptimalkan nilai kerja. Berikut adalah poin-poin penting mengenai **Lean**:
+---
+
+## Cue
+
+- Apa itu Lean dalam CALMS
+- Prinsip Lean yang relevan untuk DevOps
+- Mengapa WIP harus diminimalkan
+- Peran transparansi dalam Lean
+- Bagaimana microservices mendukung Lean
+- Dampak Lean terhadap efisiensi dan kecepatan
 
 ---
 
-## 1. Prinsip Lean dalam DevOps
+## Notes
 
-- **Menghilangkan Inefisiensi**: Fokus pada mengurangi pemborosan waktu dan sumber daya dalam proses pengembangan dan operasional.
-- **Meminimalkan WIP (Work In Progress)**: Kurangi jumlah tugas yang sedang dalam pengerjaan untuk meningkatkan efisiensi dan menghindari penundaan.
-- **Transparansi**: Buat pekerjaan dan proses menjadi transparan untuk memudahkan identifikasi dan penghapusan hambatan.
-- **Mengeliminasi Kerumitan**: Sederhanakan proses penyerahan kode dari Developer ke IT Operations untuk mengurangi kesalahan dan keterlambatan.
-- **Mengurangi Waktu Tunggu**: Perpendek waktu tunggu antara fase-fase proses, seperti dari coding ke testing.
-
----
-
-## 2. Arsitektur Microservices
-
-- **Pengembangan Modular**: Aplikasi dikembangkan sebagai kumpulan komponen kecil (microservices) yang independen namun terintegrasi.
-- **Frekuensi Rilis**: Memungkinkan pengembangan dan rilis kode dalam ukuran kecil secara lebih sering.
-- **Responsif Terhadap Kebutuhan**: Memudahkan tim untuk merespons perubahan kebutuhan pengguna dan tujuan bisnis dengan cepat.
+- Lean dalam CALMS berfokus pada penghilangan inefisiensi dan peningkatan nilai dari setiap aktivitas pengembangan maupun operasional. Tujuannya adalah mempercepat alur kerja tanpa mengorbankan kualitas.
+- Prinsip Lean mencakup pengurangan pemborosan waktu dan sumber daya, meminimalkan work in progress agar proses lebih teratur dan efisien, serta membuat pekerjaan transparan untuk memudahkan identifikasi hambatan.
+- Penyederhanaan proses penyerahan kode antara developer dan operations membantu mengurangi kesalahan, mempercepat alur, dan mengurangi kerumitan teknis.
+- Mengurangi waktu tunggu antar fase seperti coding, testing, dan deployment membantu meningkatkan throughput kerja dan mencegah bottleneck.
+- Arsitektur microservices mendukung prinsip Lean melalui pendekatan modular, di mana aplikasi dibangun dari komponen kecil yang independen namun terintegrasi.
+- Dengan microservices, tim dapat merilis perubahan lebih sering dalam ukuran kecil, sehingga lebih responsif terhadap kebutuhan pengguna dan tujuan bisnis.
+- Lean membantu tim DevOps mencapai efisiensi, kualitas yang lebih baik, dan adaptabilitas terhadap perubahan.
 
 ---
 
-**Kesimpulan:** Prinsip Lean dalam DevOps bertujuan untuk membuat alur kerja lebih efisien dan responsif. Dengan mengadopsi pendekatan ini, perusahaan dapat meningkatkan kecepatan dan kualitas pengembangan aplikasi sambil mengurangi pemborosan dan kompleksitas.
+## Summary
+
+Lean dalam CALMS berfokus pada pengurangan pemborosan dan penyederhanaan proses untuk meningkatkan kecepatan serta efisiensi. Dengan prinsip seperti minimisasi WIP, transparansi, dan adopsi arsitektur microservices, alur kerja menjadi lebih responsif, teratur, dan mampu menyesuaikan kebutuhan bisnis secara cepat.

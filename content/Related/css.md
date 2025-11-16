@@ -6,6 +6,10 @@ tags:
   - css
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

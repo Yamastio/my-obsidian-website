@@ -6,6 +6,10 @@ tags:
   - algorithms
 ---
 
+---
+
 Related: [[index|Home]]
+
+---
 
 ## Daftar isi

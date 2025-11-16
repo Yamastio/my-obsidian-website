@@ -5,47 +5,38 @@ tags:
   - programming
   - devops
 comments: true
-draft: false
 date: 2025-11-15
+draft: false
+---
+
 ---
 
 Related: [[index|Home]], [[devops]], [[programming]]
 
-## Cue (Pertanyaan / Istilah Kunci)
+---
 
-* Apa itu automation dalam DevOps?
-* Mengapa automasi penting dalam CALMS Framework?
-* Proses apa saja yang bisa diotomasi?
-* Tools apa yang mendukung automasi?
-* Bagaimana automasi meningkatkan efisiensi tim?
+## Cue
+
+- Apa itu automation dalam DevOps
+- Mengapa automasi penting dalam CALMS Framework
+- Proses apa saja yang dapat diotomasi
+- Tools yang mendukung automasi
+- Bagaimana automasi meningkatkan efisiensi tim
 
 ---
 
-## Notes (Catatan Utama)
+## Notes
 
-### 1. Pentingnya Automasi dalam DevOps
-
-* Mengurangi tugas manual yang dilakukan oleh Developer dan IT Operations.
-* Meminimalkan kesalahan manusia pada proses seperti coding, testing, dan deployment.
-* Membebaskan waktu tim untuk fokus pada inovasi, pengembangan fitur, dan peningkatan kualitas.
-* Mendukung budaya DevOps karena mempercepat alur kerja dan meningkatkan konsistensi.
-
-### 2. Proses yang Dapat Diotomasi
-
-* **Integrasi kode**: Penggabungan otomatis dari banyak kontributor ke repositori pusat.
-* **Code review otomatis**: Static analysis, linting, dan pemeriksaan standar coding.
-* **Pengujian**: Automasi unit test, integration test, dan end-to-end test.
-* **Keamanan**: Integrasi security scanning dalam pipeline CI/CD untuk deteksi kerentanan.
-* **Deployment**: Otomatisasi penggelaran aplikasi untuk menghindari konfigurasi manual yang rawan error.
-* **Monitoring**: Pemantauan otomatis kesehatan aplikasi, resource server, dan alerting.
-
-### 3. Tools dan Layanan untuk Automasi
-
-* **Infrastructure as Code (IaC)**: Menuliskan definisi server, network, dan konfigurasi sehingga environment dapat dibuat ulang secara konsisten.
-* **CI/CD Tools**: Mengotomatisasi tahapan build, test, dan deployment sehingga pipeline berjalan tanpa intervensi manual.
+- Automasi dalam DevOps mengurangi tugas manual yang biasanya dilakukan oleh developer dan tim operasi, sehingga risiko human error menurun dan alur kerja menjadi lebih cepat serta konsisten.
+- Automasi membebaskan waktu tim untuk fokus pada pengembangan fitur, peningkatan kualitas, dan inovasi, sejalan dengan nilai budaya DevOps dalam CALMS Framework.
+- Proses yang dapat diotomasi mencakup integrasi kode dari banyak kontributor, pemeriksaan kode otomatis menggunakan linting dan static analysis, serta pengujian otomatis seperti unit test, integration test, dan end-to-end test.
+- Automasi keamanan dilakukan dengan menambahkan security scanning ke pipeline CI/CD agar kerentanan dapat terdeteksi sejak awal.
+- Automasi deployment membantu menghindari kesalahan konfigurasi manual dengan menjalankan proses penggelaran aplikasi secara konsisten.
+- Automasi monitoring memungkinkan pemantauan kesehatan aplikasi dan resource server secara berkelanjutan, termasuk alerting otomatis jika terjadi anomali.
+- Tools pendukung automasi meliputi Infrastructure as Code untuk mendefinisikan environment secara deklaratif dan CI/CD tools untuk mengotomatisasi build, test, dan deployment.
 
 ---
 
-## Summary (Ringkasan)
+## Summary
 
-Automation dalam DevOps berfungsi menghilangkan pekerjaan manual, meningkatkan konsistensi, dan mempercepat delivery. Dengan mengotomasi proses seperti integrasi kode, testing, keamanan, deployment, dan monitoring, tim dapat fokus pada inovasi dan menjaga kualitas sistem secara berkelanjutan.
+Automasi dalam DevOps meningkatkan kecepatan, konsistensi, dan kualitas proses pengembangan dengan menghilangkan pekerjaan manual. Berbagai proses seperti integrasi kode, pengujian, keamanan, deployment, dan monitoring dapat diotomasi menggunakan IaC dan CI/CD sehingga tim dapat bekerja lebih efisien dan fokus pada inovasi.
